@@ -66,6 +66,8 @@
     <Compile Include="Assets\Scripts\Player\PlayerFire.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMove.cs" />
     <Compile Include="Assets\Scripts\DestroyZone.cs" />
+    <Compile Include="Assets\AwesomeCartoonPlanes\Scripts\Plane.cs" />
+    <Compile Include="Assets\AwesomeCartoonPlanes\Scripts\RotateCamera.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
