@@ -7,6 +7,13 @@ public class Enemy : MonoBehaviour
     public float speed = 5;
     Vector3 dir;
 
+    // enemy와 다른물체가 충돌 시 폭발효과 발생:
+    // 1. 적이 다른 물체와 충돌(enemy script-OnCollisionEnter)했으니까
+    // 2. 폭발 효과 공장에서 폭발 효과를 하나 만들어야 한다.
+    // 3. 폭발효과를 발생(위치)시키고 싶다.
+    // 폭발 공장 주소(외부에서 값 넣음)
+    public GameObject explosionFactory;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +38,9 @@ public class Enemy : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        GameObject explosion = Instantiate(explosionFactory);
+        explosion.transform.position = transform.position;
+
         Destroy(collision.gameObject);
         Destroy(gameObject);
     }

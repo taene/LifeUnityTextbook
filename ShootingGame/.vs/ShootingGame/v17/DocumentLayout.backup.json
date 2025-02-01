@@ -7,7 +7,11 @@
       "RelativeMoniker": "D:0:0:{4C29D328-2221-BEEB-FDBB-E772EA262183}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C29D328-2221-BEEB-FDBB-E772EA262183}|Assembly-CSharp.csproj|c:\\unityprojects\\lifeunitytextbook\\shootinggame\\assets\\scripts\\enemy\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4C29D328-2221-BEEB-FDBB-E772EA262183}|Assembly-CSharp.csproj|c:\\unityprojects\\lifeunitytextbook\\shootinggame\\assets\\scripts\\destroyzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C29D328-2221-BEEB-FDBB-E772EA262183}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\destroyzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C29D328-2221-BEEB-FDBB-E772EA262183}|Assembly-CSharp.csproj|C:\\UnityProjects\\LifeUnityTextbook\\ShootingGame\\assets\\scripts\\enemy\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C29D328-2221-BEEB-FDBB-E772EA262183}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,6 +43,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "DestroyZone.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\LifeUnityTextbook\\ShootingGame\\Assets\\Scripts\\DestroyZone.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DestroyZone.cs",
+              "ToolTip": "C:\\UnityProjects\\LifeUnityTextbook\\ShootingGame\\Assets\\Scripts\\DestroyZone.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DestroyZone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T13:10:07.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "EnemyManager.cs",
               "DocumentMoniker": "C:\\UnityProjects\\LifeUnityTextbook\\ShootingGame\\Assets\\Scripts\\Enemy\\EnemyManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyManager.cs",
@@ -46,8 +63,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyManager.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T12:30:09.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T12:30:09.11Z"
             },
             {
               "$type": "Document",
@@ -57,14 +73,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy.cs",
               "ToolTip": "C:\\UnityProjects\\LifeUnityTextbook\\ShootingGame\\Assets\\Scripts\\Enemy\\Enemy.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwB0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBAAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T12:17:18.635Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PlayerFire.cs",
               "DocumentMoniker": "C:\\UnityProjects\\LifeUnityTextbook\\ShootingGame\\Assets\\Scripts\\Player\\PlayerFire.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerFire.cs",
@@ -76,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PlayerMove.cs",
               "DocumentMoniker": "C:\\UnityProjects\\LifeUnityTextbook\\ShootingGame\\Assets\\Scripts\\Player\\PlayerMove.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerMove.cs",
@@ -88,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Bullet.cs",
               "DocumentMoniker": "C:\\UnityProjects\\LifeUnityTextbook\\ShootingGame\\Assets\\Scripts\\Bullet.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Bullet.cs",
