@@ -60,12 +60,12 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.47f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\JMO Assets\Welcome Screen\CFXR_WelcomeScreen.cs" />
+    <Compile Include="Assets\Import Assets\JMO Assets\Welcome Screen\CFXR_WelcomeScreen.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\JMO Assets\Welcome Screen\CFXR.WelcomeScreen.asmdef" />
-    <None Include="Assets\JMO Assets\Welcome Screen\CFXR_WelcomeScreen.uss" />
-    <None Include="Assets\JMO Assets\Welcome Screen\CFXR_WelcomeScreen.uxml" />
+    <None Include="Assets\Import Assets\JMO Assets\Welcome Screen\CFXR.WelcomeScreen.asmdef" />
+    <None Include="Assets\Import Assets\JMO Assets\Welcome Screen\CFXR_WelcomeScreen.uss" />
+    <None Include="Assets\Import Assets\JMO Assets\Welcome Screen\CFXR_WelcomeScreen.uxml" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -976,12 +976,12 @@
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.TestRunner">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>

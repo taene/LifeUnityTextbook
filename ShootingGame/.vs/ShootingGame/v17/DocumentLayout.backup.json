@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{4C29D328-2221-BEEB-FDBB-E772EA262183}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C29D328-2221-BEEB-FDBB-E772EA262183}|Assembly-CSharp.csproj|c:\\unityprojects\\lifeunitytextbook\\shootinggame\\assets\\scripts\\destroyzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4C29D328-2221-BEEB-FDBB-E772EA262183}|Assembly-CSharp.csproj|C:\\UnityProjects\\LifeUnityTextbook\\ShootingGame\\assets\\scripts\\destroyzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C29D328-2221-BEEB-FDBB-E772EA262183}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\destroyzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -50,8 +50,7 @@
               "RelativeToolTip": "Assets\\Scripts\\DestroyZone.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T13:10:07.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T13:10:07.365Z"
             },
             {
               "$type": "Document",
@@ -73,7 +72,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy.cs",
               "ToolTip": "C:\\UnityProjects\\LifeUnityTextbook\\ShootingGame\\Assets\\Scripts\\Enemy\\Enemy.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBAAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAxwBcAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T12:17:18.635Z",
               "EditorCaption": ""
