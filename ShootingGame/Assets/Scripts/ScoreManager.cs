@@ -1,15 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;   // 유니티UI를 사용하기 위한 네임스페이스
 
 public class ScoreManager : MonoBehaviour
 {
     public Text currentScoreUI;
-    public int currentScore;
+    private int currentScore;
 
     public Text bestScoreUI;
-    public int bestScore;
+    private int bestScore;
 
     // Start is called before the first frame update
     void Start()
@@ -24,5 +25,26 @@ public class ScoreManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void SetScore(int value)
+    {
+        currentScore = value;
+        currentScoreUI.text = "현재점수 : " + currentScore;
+
+        // bestScore UI
+        if (currentScore > bestScore)
+        {
+            bestScore = currentScore;
+            bestScoreUI.text = "최고점수 : " + bestScore;
+
+            // 최고점수 클라이언트에 저장
+            PlayerPrefs.SetInt("Best Score", bestScore);
+        }
+    }
+
+    public int GetScore()
+    {
+        return currentScore;
     }
 }
