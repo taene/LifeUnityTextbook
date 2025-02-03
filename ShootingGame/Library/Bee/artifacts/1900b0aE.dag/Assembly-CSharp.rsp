@@ -370,6 +370,7 @@
 "Assets/Scripts/Enemy/EnemyManager.cs"
 "Assets/Scripts/Player/PlayerFire.cs"
 "Assets/Scripts/Player/PlayerMove.cs"
+"Assets/Scripts/ScoreManager.cs"
 -langversion:9.0
 /deterministic
 /optimize+

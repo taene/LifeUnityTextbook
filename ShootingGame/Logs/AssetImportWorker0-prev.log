@@ -15,7 +15,7 @@ C:/UnityProjects/LifeUnityTextbook/ShootingGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55807
+56167
 Successfully changed project path to: C:/UnityProjects/LifeUnityTextbook/ShootingGame
 C:/UnityProjects/LifeUnityTextbook/ShootingGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ C:/UnityProjects/LifeUnityTextbook/ShootingGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [25220]  Target information:
+Player connection [13092]  Target information:
 
-Player connection [25220]  * "[IP] 192.168.219.110 [Port] 0 [Flags] 2 [Guid] 2026321788 [EditorId] 2026321788 [Version] 1048832 [Id] WindowsEditor(7,TaenE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [13092]  * "[IP] 192.168.219.110 [Port] 0 [Flags] 2 [Guid] 2707270556 [EditorId] 2707270556 [Version] 1048832 [Id] WindowsEditor(7,TaenE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [25220] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [25220] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13092] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [13092] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 13.06 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 15.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.47f1 (88c277b85d21)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/Resources/UnitySubsystems
@@ -72,47 +72,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.015569 seconds.
-- Loaded All Assemblies, in  0.281 seconds
+Registered in 0.014427 seconds.
+- Loaded All Assemblies, in  0.287 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1877 ms
+Android Extension - Scanning For ADB Devices 1876 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.079 seconds
-Domain Reload Profiling: 2357ms
-	BeginReloadAssembly (93ms)
+- Finished resetting the current domain, in  2.090 seconds
+Domain Reload Profiling: 2374ms
+	BeginReloadAssembly (102ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
+		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (98ms)
-		LoadAssemblies (91ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (100ms)
+		LoadAssemblies (99ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (96ms)
-			TypeCache.Refresh (95ms)
-				TypeCache.ScanAssembly (86ms)
+		AnalyzeDomain (97ms)
+			TypeCache.Refresh (96ms)
+				TypeCache.ScanAssembly (85ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (2079ms)
+	FinalizeReload (2091ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2050ms)
+		SetupLoadedEditorAssemblies (2061ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1935ms)
+			InitializePlatformSupportModulesInManaged (1934ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (74ms)
-			ProcessInitializeOnLoadMethodAttributes (37ms)
+			ProcessInitializeOnLoadAttributes (80ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,51 +121,51 @@ Domain Reload Profiling: 2357ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.501 seconds
+- Loaded All Assemblies, in  0.517 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.449 seconds
-Domain Reload Profiling: 945ms
-	BeginReloadAssembly (121ms)
+- Finished resetting the current domain, in  0.428 seconds
+Domain Reload Profiling: 940ms
+	BeginReloadAssembly (123ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (312ms)
-		LoadAssemblies (259ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (320ms)
+		LoadAssemblies (267ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (126ms)
-			TypeCache.Refresh (110ms)
-				TypeCache.ScanAssembly (100ms)
+			TypeCache.Refresh (111ms)
+				TypeCache.ScanAssembly (99ms)
 			ScanForSourceGeneratedMonoScriptInfo (11ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (449ms)
+	FinalizeReload (429ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (346ms)
+		SetupLoadedEditorAssemblies (332ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
+			InitializePlatformSupportModulesInManaged (18ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (53ms)
-			ProcessInitializeOnLoadAttributes (245ms)
-			ProcessInitializeOnLoadMethodAttributes (13ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (229ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
 			AfterProcessingInitializeOnLoad (12ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 5.20 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 4.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3129 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (54.6 KB). Loaded Objects now: 3601.
-Memory consumption went from 126.0 MB to 125.9 MB.
-Total: 3.351900 ms (FindLiveObjects: 0.200400 ms CreateObjectMapping: 0.038200 ms MarkObjects: 3.040100 ms  DeleteObjects: 0.072500 ms)
+Unloading 3130 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (54.6 KB). Loaded Objects now: 3602.
+Memory consumption went from 125.9 MB to 125.9 MB.
+Total: 2.232200 ms (FindLiveObjects: 0.197900 ms CreateObjectMapping: 0.039100 ms MarkObjects: 1.904200 ms  DeleteObjects: 0.090000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -183,358 +183,450 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 9919.395412 seconds.
-  path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_07.png
-  artifactKey: Guid(234956b9f0f6d3342949e325b64b22db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_07.png using Guid(234956b9f0f6d3342949e325b64b22db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 10861.804593 seconds.
+  path: Assets/Prefabs/Bullet.prefab
+  artifactKey: Guid(c6663b393b53a5742869716e2dacf331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bullet.prefab using Guid(c6663b393b53a5742869716e2dacf331) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b8abdf2af9f47a422685d27288e67115') in 0.053118 seconds
+ -> (artifact id: '2f060f5adc75aebc14441a56abbab58c') in 0.066975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 54.376518 seconds.
+  path: Assets/Import Assets/Icons/kiwi.FBX
+  artifactKey: Guid(944f91bda976fe544ac41f090012e16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Icons/kiwi.FBX using Guid(944f91bda976fe544ac41f090012e16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '53b948dcef4069478dbfa99368c19c22') in 0.035194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Import Assets/Icons/mushroom.FBX
+  artifactKey: Guid(b53fab1a8a71cf745ad1af6d16214489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Icons/mushroom.FBX using Guid(b53fab1a8a71cf745ad1af6d16214489) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '096e14bc16eddc75632c2b42f00628b0') in 0.021585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Import Assets/Icons/pea.FBX
+  artifactKey: Guid(ee17f19b050fb2f4f8322e87ecfced8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Icons/pea.FBX using Guid(ee17f19b050fb2f4f8322e87ecfced8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5b98944ea2aa6de1f79ba40e71f7b931') in 0.021295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.272420 seconds.
+  path: Assets/Import Assets/Icons/pizza.FBX
+  artifactKey: Guid(d3a88e33be12ed34b832c0be1f56a7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Icons/pizza.FBX using Guid(d3a88e33be12ed34b832c0be1f56a7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd9618eb377107ec77b8231a89c98539b') in 0.021472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Import Assets/Icons/tomato.FBX
+  artifactKey: Guid(292237ffd3dc1444c828be3c90e1d862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Icons/tomato.FBX using Guid(292237ffd3dc1444c828be3c90e1d862) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a022a76dfe0386729b4e2a9848b25675') in 0.019856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.013292 seconds.
+  path: Assets/Import Assets/Icons/watermelon.FBX
+  artifactKey: Guid(d9b493bbd86ef3443a770a279d0426a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Icons/watermelon.FBX using Guid(d9b493bbd86ef3443a770a279d0426a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f2b209a1f4351e44c6d9d4c19cc58bc5') in 0.021223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.234503 seconds.
+  path: Assets/Import Assets/Icons/yogurt.FBX
+  artifactKey: Guid(1afd1833d5edaf6419570fb98bed2533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Icons/yogurt.FBX using Guid(1afd1833d5edaf6419570fb98bed2533) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '212e0067e7cd8fe605a9d70e49eaca24') in 0.021167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 208.677350 seconds.
+  path: Assets/Import Assets/Free Pack/Autocannon - Shot 1.wav
+  artifactKey: Guid(bb2e2714f962491428dcb0b38598b251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Free Pack/Autocannon - Shot 1.wav using Guid(bb2e2714f962491428dcb0b38598b251) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '20b9e3f2f7ee0c0d18f98bebd2e45702') in 0.031249 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 64.100919 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(fdd9865e1bf3dbe48b50d7c9dd997fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(fdd9865e1bf3dbe48b50d7c9dd997fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b0b20ad82a8662d71d562a2f052a5cc6') in 0.000517 seconds
+  Time since last request: 0.000015 seconds.
+  path: Assets/Import Assets/Free Pack/Cannon impact 9.wav
+  artifactKey: Guid(5ff823f546b52574a931e1d9b44290a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Free Pack/Cannon impact 9.wav using Guid(5ff823f546b52574a931e1d9b44290a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b58f3d07164d3f44efa3a4800bc01b07') in 0.014906 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 40.386044 seconds.
-  path: Assets/Import Assets
-  artifactKey: Guid(e9983fe79ce95da49a35b0bf52d7abc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import Assets using Guid(e9983fe79ce95da49a35b0bf52d7abc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '846d28e09b11d1033285fdfdf91f15e8') in 0.000519 seconds
+  Time since last request: 0.000015 seconds.
+  path: Assets/Import Assets/Free Pack/Cavern Atmosphere - Loop.wav
+  artifactKey: Guid(6d2e2db0b97a8c84e9b7aba22496d5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Free Pack/Cavern Atmosphere - Loop.wav using Guid(6d2e2db0b97a8c84e9b7aba22496d5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '06f7c03cade410d262d857c92beed1d2') in 0.108254 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Import Assets/Free Pack/Chemistry reaction 3 - Big.wav
+  artifactKey: Guid(4144ed0d6abcc42479fe873c54bbe0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Free Pack/Chemistry reaction 3 - Big.wav using Guid(4144ed0d6abcc42479fe873c54bbe0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bb466aaba48f6bea87e516b61a3b5a83') in 0.041404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Import Assets/Free Pack/Easy Going Medieval Tavern - Loop.wav
+  artifactKey: Guid(cdfab68e200464842847522ffb19ae13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Free Pack/Easy Going Medieval Tavern - Loop.wav using Guid(cdfab68e200464842847522ffb19ae13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '566b5699fee270aa942d40446128e519') in 0.627031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 19.790841 seconds.
+  path: Assets/Import Assets/Free Pack/Flare gun 5-2.wav
+  artifactKey: Guid(0bd05763df902854a80475577a26666a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Free Pack/Flare gun 5-2.wav using Guid(0bd05763df902854a80475577a26666a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6a993aee7fbf821d42a7418ffead9fe3') in 0.018361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.340770 seconds.
+  path: Assets/Import Assets/Free Pack/Ghost Manifestation 1.wav
+  artifactKey: Guid(26fbf6bb6963666478f6992bc53b9145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Free Pack/Ghost Manifestation 1.wav using Guid(26fbf6bb6963666478f6992bc53b9145) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dd3612a0fdc44b5c5e34594d0540c58d') in 0.052901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.028273 seconds.
+  path: Assets/Import Assets/Free Pack/Ghost Manifestation 2.wav
+  artifactKey: Guid(618be86712ffac947997f96463301683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Free Pack/Ghost Manifestation 2.wav using Guid(618be86712ffac947997f96463301683) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '61bf616281ef6a451e41c2c6f44f8839') in 0.061084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.237064 seconds.
+  path: Assets/Import Assets/Free Pack/Hand Gun 3.wav
+  artifactKey: Guid(a764377339b869e459f5e53fb9258f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Free Pack/Hand Gun 3.wav using Guid(a764377339b869e459f5e53fb9258f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ab4451a419e653b3217305f5538384e4') in 0.014838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 12.113580 seconds.
+  path: Assets/Import Assets/Free Pack/Heavy Object Impact 4.wav
+  artifactKey: Guid(9930d5b4be15bb04c9d0a6fa0d7e6b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Free Pack/Heavy Object Impact 4.wav using Guid(9930d5b4be15bb04c9d0a6fa0d7e6b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '74f01c0bf94d41f58cd6950bff2094eb') in 0.017306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.790540 seconds.
+  path: Assets/Import Assets/Free Pack/Ice Cavern-Loop.wav
+  artifactKey: Guid(517dbd5357d36724c9ff71219172b9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Free Pack/Ice Cavern-Loop.wav using Guid(517dbd5357d36724c9ff71219172b9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '79207088eb8c53e98dc7885790fe0db3') in 0.259932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.107907 seconds.
+  path: Assets/Import Assets/Free Pack/Laser Gun Salve.wav
+  artifactKey: Guid(e88084c6f293c324db2b4dcf575d60dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Free Pack/Laser Gun Salve.wav using Guid(e88084c6f293c324db2b4dcf575d60dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ca81bef0a0a34621e3da67646ceec552') in 0.015990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.061094 seconds.
+  path: Assets/Import Assets/Free Pack/Laser Multiple shots 1.wav
+  artifactKey: Guid(c9bb4171cafd3dd47829336ea4c8d988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Free Pack/Laser Multiple shots 1.wav using Guid(c9bb4171cafd3dd47829336ea4c8d988) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7ceb18f4d71e13b1b188c41a11ba1f99') in 0.019246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.646857 seconds.
+  path: Assets/Import Assets/Free Pack/Magic Spell - Sleeping spell 1.wav
+  artifactKey: Guid(adcac75087a17704ca6c0c3b15bc3aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Free Pack/Magic Spell - Sleeping spell 1.wav using Guid(adcac75087a17704ca6c0c3b15bc3aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a7241fa3014cde86ea18520474a3fdf6') in 0.034164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.496049 seconds.
+  path: Assets/Import Assets/Free Pack/Magic Spell_Coins_2.wav
+  artifactKey: Guid(34f9cbd28a9740349b6cc2f5e280dda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Free Pack/Magic Spell_Coins_2.wav using Guid(34f9cbd28a9740349b6cc2f5e280dda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0f6ad5a9af8fef5b3bbd295b0edba0d0') in 0.029920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.830086 seconds.
+  path: Assets/Import Assets/Free Pack/Magic Spell_Short Reverse_1.wav
+  artifactKey: Guid(7f4aa26d5b55226409cda231ffaf869b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Free Pack/Magic Spell_Short Reverse_1.wav using Guid(7f4aa26d5b55226409cda231ffaf869b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c5eb3c1961ea3a7336c5192216c2af05') in 0.016223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.699347 seconds.
+  path: Assets/Import Assets/Free Pack/Medieval City.wav
+  artifactKey: Guid(c53d52b6903e77342963b7b627f126fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Free Pack/Medieval City.wav using Guid(c53d52b6903e77342963b7b627f126fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '722e05950d548dfe537436cec8ddfc2c') in 0.338425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.933486 seconds.
+  path: Assets/Import Assets/Free Pack/Metal Impact 7.wav
+  artifactKey: Guid(2e071f5b8b8467d45a5e6e24c23c6ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Free Pack/Metal Impact 7.wav using Guid(2e071f5b8b8467d45a5e6e24c23c6ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4af5b15addb014a0aa3fdda52d42f7c2') in 0.018503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.029045 seconds.
+  path: Assets/Import Assets/Free Pack/Monster Bite.wav
+  artifactKey: Guid(ac6034ade498bb94b87620cdf6eac48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Free Pack/Monster Bite.wav using Guid(ac6034ade498bb94b87620cdf6eac48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8be6513b799e5cb046b87f1353d86d0f') in 0.016323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.043467 seconds.
+  path: Assets/Import Assets/Free Pack/Railgun - Shot 6.wav
+  artifactKey: Guid(f9eb44b85c96be5429737d4dcadbfa3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Free Pack/Railgun - Shot 6.wav using Guid(f9eb44b85c96be5429737d4dcadbfa3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '98feebc9a930a0499a0b7ead4d0d30a6') in 0.022906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.253816 seconds.
+  path: Assets/Import Assets/Free Pack/Secret door.wav
+  artifactKey: Guid(070779cdcfbe3ff4688691fb33bc3e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Free Pack/Secret door.wav using Guid(070779cdcfbe3ff4688691fb33bc3e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2b512c13535cf63771071f5fe0ddf2ec') in 0.037914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.027346 seconds.
+  path: Assets/Import Assets/Free Pack/Thunder strikes 30 second- Loop.wav
+  artifactKey: Guid(7dc48ac47b618424f8d032a339525809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Free Pack/Thunder strikes 30 second- Loop.wav using Guid(7dc48ac47b618424f8d032a339525809) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '483d48bff516d608ce595d6754f37e88') in 0.087022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.514242 seconds.
+  path: Assets/Import Assets/Free Pack/Walking in ChainMail - Loop.wav
+  artifactKey: Guid(9b713c76b05f8b04882a23a60605b0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Free Pack/Walking in ChainMail - Loop.wav using Guid(9b713c76b05f8b04882a23a60605b0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9983c570af5e621a5ab3fb98e70d9f18') in 0.035368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Prepare
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Import Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
 Caller must complete domain reload
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Import Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.384 seconds
+- Loaded All Assemblies, in  0.380 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Import Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.901 seconds
-Domain Reload Profiling: 1279ms
-	BeginReloadAssembly (132ms)
+- Finished resetting the current domain, in  0.974 seconds
+Domain Reload Profiling: 1348ms
+	BeginReloadAssembly (131ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (2ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
+		CreateAndSetChildDomain (27ms)
 	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (190ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (184ms)
 		LoadAssemblies (250ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (16ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (6ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (901ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (974ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (293ms)
+		SetupLoadedEditorAssemblies (341ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
+			InitializePlatformSupportModulesInManaged (20ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (190ms)
-			ProcessInitializeOnLoadMethodAttributes (11ms)
-			AfterProcessingInitializeOnLoad (11ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (229ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (14ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 5.00 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 6.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3116 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3607.
-Memory consumption went from 123.7 MB to 123.6 MB.
-Total: 2.274700 ms (FindLiveObjects: 0.192600 ms CreateObjectMapping: 0.047600 ms MarkObjects: 2.005500 ms  DeleteObjects: 0.028600 ms)
+Unloading 3117 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3618.
+Memory consumption went from 127.4 MB to 127.4 MB.
+Total: 2.387600 ms (FindLiveObjects: 0.214100 ms CreateObjectMapping: 0.050900 ms MarkObjects: 2.087400 ms  DeleteObjects: 0.034600 ms)
 
-Prepare: number of updated asset objects reloaded= 5
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/CFXR_Styles.cs: 0757069e7af3ba4444d0d25cf7f1aee1 -> 14132385ef0a62dc85f08de4f5687ece
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/CFXR_WelcomeScreen.cs: 5eb9ee92d995a38201f6434fb34b524a -> 9c94608da2bdcc5de3ace1327c049746
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/CFXR_ParticleTextFontAsset.cs: 2c0f5b39375fdb3ffea33678dba0f2b1 -> 997a733798b2c803fc88cc92695e7ca4
-  custom:scripting/monoscript/fileName/CFXR_MaterialInspector.cs: 0c5bfea224b575e2646313fc42f2e08d -> 85a99159289e64398275fbc6500bb9a8
-  custom:scripting/precompiled-assembly-types:CFXRDemo: 39a2898875bf1b2af96e7f493aaf6992 -> 0ca116c5ab8da0415d04be2dd85a34dd
-  custom:scripting/monoscript/fileName/CFXR_ShaderImporter.cs: a566cd0f556f35f05719aac10415b17c -> f0ef3fb7c5ca7b4517f50c44917fac9e
-  custom:scripting/monoscript/fileName/CFXR_Effect.CameraShake.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
-  custom:scripting/monoscript/fileName/Plane.cs: e29f347cbd90ff08e7a879382a677529 -> 951808986591dd74022294b0d9970bf2
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:scripting/precompiled-assembly-types:CFXREditor: 4f936f8b7ba24e578c308da5e89b6e6e -> 208c3af22db142123aba5816f8aa1b45
-  custom:scripting/precompiled-assembly-types:ToonyColorsPro.Demo.Editor: b2887f6afbd994deccfdca747a2ef79f -> 6b694ea541e62ce2d03a0131e66c5b89
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/precompiled-assembly-types:CFXRRuntime: 4b7d3298737c87d3996e10b763373c6a -> 453c18230450fd24f51e90fe9655b7ef
-  custom:scripting/monoscript/fileName/CFXR_EmissionBySurface.cs: ace1fbedccc09febe364c5088d60b3b3 -> 6294a85dd8a1718740abd2427d3ed0fe
-  custom:scripting/monoscript/fileName/CFXR_Demo_Rotate.cs: fcad54cf80c113a8573a07edd452f948 -> 558719a58b028e94222b368a7326d6e9
-  custom:scripting/precompiled-assembly-types:CFXR.WelcomeScreen: c8e415fdf4455338cd73d67fdf1083cf -> e308a2494ec7b1eea3ee27540cbddee3
-  custom:scripting/monoscript/fileName/CFXR_ExpressionParser.cs: f9b5276a4e540080f15d5067545c3777 -> 215820334dc899aa183f0061c3ffd288
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/CFXR_Demo_Translate.cs: 282d9f9a6ecf0d4a1c6c4f01345e01a1 -> bf3bdd14f5899835d13cb9fe83e767e2
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/CFXR_ParticleText.cs: 954edc24969e7d36de6c6a079a85cb98 -> 3f1f97f09f1dd1cf194149bcb9712660
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/BloomGraphDrawer.cs: 568ae764c377db66faaeb7833d4bccb3 -> 9600e9f64d67dabab17944976945a2fa
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/Bloom.cs: f2208c314d0170133875ca9a9b688726 -> 3b16b4d33f3d30843d2aa87b6206b4be
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/CFXR_Demo.cs: dafb48c744f8f9712e2a19d95bc33b43 -> 2236c91491221800136a918da2fc2861
-  custom:scripting/monoscript/fileName/RotateCamera.cs: b4ebab61f19186bced7daca51960221b -> 98ccf3939531c531b9303e44cbedd54a
-  custom:scripting/monoscript/fileName/CFXR_ShaderPostProcessor.cs: 8c6e989bfa7de8931452a3b2acaa3404 -> eee4c4410265e19bfd8b3e2c4c5b2a2d
-  custom:scripting/monoscript/fileName/BloomEditor.cs: c4397c906d0b1ab144602495c41137c2 -> 89e0e0bc60c6236a30fe9f86121d654c
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: d3564023da91f6ff401a10e33c633bb4 -> ef8945688f6a5bca09f34070b4e4e26c
-  custom:scripting/precompiled-assembly-types:KinoBloom.Runtime: ee75d5194ca5977886a85b0c51da86ec -> fd8e0c14623ea1bc5e8eaca3fd20f83a
+========================================================================
+Received Import Request.
+  Time since last request: 84.518324 seconds.
+  path: Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR Explosion Smoke 2 Solo (HDR).prefab
+  artifactKey: Guid(4bda94453d2ca7444a0fff05b2d425f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR Explosion Smoke 2 Solo (HDR).prefab using Guid(4bda94453d2ca7444a0fff05b2d425f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '52cf326e8e3d3bef32ccd57d2534340f') in 0.002081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR4 Firework HDR Shoot Single (Random Color).prefab
+  artifactKey: Guid(afa54037ffe627545886e2741abb365d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR4 Firework HDR Shoot Single (Random Color).prefab using Guid(afa54037ffe627545886e2741abb365d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '030487ffb001762466ac942374c7a912') in 0.000447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 18.475840 seconds.
+  path: Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR Explosion Smoke 2 Solo (HDR).prefab
+  artifactKey: Guid(4bda94453d2ca7444a0fff05b2d425f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR Explosion Smoke 2 Solo (HDR).prefab using Guid(4bda94453d2ca7444a0fff05b2d425f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '52cf326e8e3d3bef32ccd57d2534340f') in 0.000476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR3 Fire Explosion B.prefab
+  artifactKey: Guid(99bc28c0d45f51c4fbac01080b73edc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR3 Fire Explosion B.prefab using Guid(99bc28c0d45f51c4fbac01080b73edc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0cf93061c599f99306a1a1d3898d2cf8') in 0.000374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR4 Firework HDR Shoot Single (Random Color).prefab
+  artifactKey: Guid(afa54037ffe627545886e2741abb365d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR4 Firework HDR Shoot Single (Random Color).prefab using Guid(afa54037ffe627545886e2741abb365d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '030487ffb001762466ac942374c7a912') in 0.000399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Import Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
 Caller must complete domain reload
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Import Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.367 seconds
+- Loaded All Assemblies, in  0.370 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Import Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.995 seconds
-Domain Reload Profiling: 1357ms
-	BeginReloadAssembly (126ms)
+- Finished resetting the current domain, in  0.960 seconds
+Domain Reload Profiling: 1325ms
+	BeginReloadAssembly (123ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (2ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (21ms)
 	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (179ms)
-		LoadAssemblies (247ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (8ms)
-			TypeCache.Refresh (3ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (996ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (338ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (70ms)
-			ProcessInitializeOnLoadAttributes (220ms)
-			ProcessInitializeOnLoadMethodAttributes (14ms)
-			AfterProcessingInitializeOnLoad (14ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 6.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3117 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3610.
-Memory consumption went from 123.9 MB to 123.9 MB.
-Total: 2.011800 ms (FindLiveObjects: 0.215700 ms CreateObjectMapping: 0.050300 ms MarkObjects: 1.715500 ms  DeleteObjects: 0.029700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/CFXR_Styles.cs: 0757069e7af3ba4444d0d25cf7f1aee1 -> 14132385ef0a62dc85f08de4f5687ece
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/CFXR_WelcomeScreen.cs: 5eb9ee92d995a38201f6434fb34b524a -> 9c94608da2bdcc5de3ace1327c049746
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/CFXR_ParticleTextFontAsset.cs: 2c0f5b39375fdb3ffea33678dba0f2b1 -> 997a733798b2c803fc88cc92695e7ca4
-  custom:scripting/monoscript/fileName/CFXR_MaterialInspector.cs: 0c5bfea224b575e2646313fc42f2e08d -> 85a99159289e64398275fbc6500bb9a8
-  custom:scripting/precompiled-assembly-types:CFXRDemo: 39a2898875bf1b2af96e7f493aaf6992 -> 0ca116c5ab8da0415d04be2dd85a34dd
-  custom:scripting/monoscript/fileName/CFXR_ShaderImporter.cs: a566cd0f556f35f05719aac10415b17c -> f0ef3fb7c5ca7b4517f50c44917fac9e
-  custom:scripting/monoscript/fileName/CFXR_Effect.CameraShake.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
-  custom:scripting/monoscript/fileName/Plane.cs: e29f347cbd90ff08e7a879382a677529 -> 951808986591dd74022294b0d9970bf2
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:scripting/precompiled-assembly-types:CFXREditor: 4f936f8b7ba24e578c308da5e89b6e6e -> 208c3af22db142123aba5816f8aa1b45
-  custom:scripting/precompiled-assembly-types:ToonyColorsPro.Demo.Editor: b2887f6afbd994deccfdca747a2ef79f -> 6b694ea541e62ce2d03a0131e66c5b89
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/precompiled-assembly-types:CFXRRuntime: 4b7d3298737c87d3996e10b763373c6a -> 453c18230450fd24f51e90fe9655b7ef
-  custom:scripting/monoscript/fileName/CFXR_EmissionBySurface.cs: ace1fbedccc09febe364c5088d60b3b3 -> 6294a85dd8a1718740abd2427d3ed0fe
-  custom:scripting/monoscript/fileName/CFXR_Demo_Rotate.cs: fcad54cf80c113a8573a07edd452f948 -> 558719a58b028e94222b368a7326d6e9
-  custom:scripting/precompiled-assembly-types:CFXR.WelcomeScreen: c8e415fdf4455338cd73d67fdf1083cf -> e308a2494ec7b1eea3ee27540cbddee3
-  custom:scripting/monoscript/fileName/CFXR_ExpressionParser.cs: f9b5276a4e540080f15d5067545c3777 -> 215820334dc899aa183f0061c3ffd288
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/CFXR_Demo_Translate.cs: 282d9f9a6ecf0d4a1c6c4f01345e01a1 -> bf3bdd14f5899835d13cb9fe83e767e2
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/CFXR_ParticleText.cs: 954edc24969e7d36de6c6a079a85cb98 -> 3f1f97f09f1dd1cf194149bcb9712660
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/BloomGraphDrawer.cs: 568ae764c377db66faaeb7833d4bccb3 -> 9600e9f64d67dabab17944976945a2fa
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/Bloom.cs: f2208c314d0170133875ca9a9b688726 -> 3b16b4d33f3d30843d2aa87b6206b4be
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/CFXR_Demo.cs: dafb48c744f8f9712e2a19d95bc33b43 -> 2236c91491221800136a918da2fc2861
-  custom:scripting/monoscript/fileName/RotateCamera.cs: b4ebab61f19186bced7daca51960221b -> 98ccf3939531c531b9303e44cbedd54a
-  custom:scripting/monoscript/fileName/CFXR_ShaderPostProcessor.cs: 8c6e989bfa7de8931452a3b2acaa3404 -> eee4c4410265e19bfd8b3e2c4c5b2a2d
-  custom:scripting/monoscript/fileName/BloomEditor.cs: c4397c906d0b1ab144602495c41137c2 -> 89e0e0bc60c6236a30fe9f86121d654c
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: d3564023da91f6ff401a10e33c633bb4 -> ef8945688f6a5bca09f34070b4e4e26c
-  custom:scripting/precompiled-assembly-types:KinoBloom.Runtime: ee75d5194ca5977886a85b0c51da86ec -> fd8e0c14623ea1bc5e8eaca3fd20f83a
-========================================================================
-Received Import Request.
-  Time since last request: 74.367587 seconds.
-  path: Assets/Materials/Mat_Background.mat
-  artifactKey: Guid(8cc9cadc5aa87584c978c747bc388226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Mat_Background.mat using Guid(8cc9cadc5aa87584c978c747bc388226) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '50d720943e13d76f5fa3d8dab8b69f42') in 0.070078 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 108.347380 seconds.
-  path: Assets/Materials/Mat_Background.mat
-  artifactKey: Guid(8cc9cadc5aa87584c978c747bc388226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Mat_Background.mat using Guid(8cc9cadc5aa87584c978c747bc388226) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b14031f73d0d73b931b0ef7e50cbc624') in 0.019812 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Prepare
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Import Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Caller must complete domain reload
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Import Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.378 seconds
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Import Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.965 seconds
-Domain Reload Profiling: 1338ms
-	BeginReloadAssembly (130ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (184ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (188ms)
 		LoadAssemblies (252ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (8ms)
@@ -542,1116 +634,104 @@ Domain Reload Profiling: 1338ms
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (965ms)
+	FinalizeReload (960ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (338ms)
+		SetupLoadedEditorAssemblies (330ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (19ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (75ms)
-			ProcessInitializeOnLoadAttributes (215ms)
-			ProcessInitializeOnLoadMethodAttributes (13ms)
-			AfterProcessingInitializeOnLoad (14ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 6.21 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3116 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3653.
-Memory consumption went from 128.4 MB to 128.3 MB.
-Total: 2.401900 ms (FindLiveObjects: 0.232800 ms CreateObjectMapping: 0.063700 ms MarkObjects: 2.073600 ms  DeleteObjects: 0.031000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/CFXR_Styles.cs: 0757069e7af3ba4444d0d25cf7f1aee1 -> 14132385ef0a62dc85f08de4f5687ece
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/CFXR_WelcomeScreen.cs: 5eb9ee92d995a38201f6434fb34b524a -> 9c94608da2bdcc5de3ace1327c049746
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/CFXR_ParticleTextFontAsset.cs: 2c0f5b39375fdb3ffea33678dba0f2b1 -> 997a733798b2c803fc88cc92695e7ca4
-  custom:scripting/monoscript/fileName/CFXR_MaterialInspector.cs: 0c5bfea224b575e2646313fc42f2e08d -> 85a99159289e64398275fbc6500bb9a8
-  custom:scripting/precompiled-assembly-types:CFXRDemo: 39a2898875bf1b2af96e7f493aaf6992 -> 0ca116c5ab8da0415d04be2dd85a34dd
-  custom:scripting/monoscript/fileName/CFXR_ShaderImporter.cs: a566cd0f556f35f05719aac10415b17c -> f0ef3fb7c5ca7b4517f50c44917fac9e
-  custom:scripting/monoscript/fileName/CFXR_Effect.CameraShake.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
-  custom:scripting/monoscript/fileName/Plane.cs: e29f347cbd90ff08e7a879382a677529 -> 951808986591dd74022294b0d9970bf2
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:scripting/precompiled-assembly-types:CFXREditor: 4f936f8b7ba24e578c308da5e89b6e6e -> 208c3af22db142123aba5816f8aa1b45
-  custom:scripting/precompiled-assembly-types:ToonyColorsPro.Demo.Editor: b2887f6afbd994deccfdca747a2ef79f -> 6b694ea541e62ce2d03a0131e66c5b89
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/precompiled-assembly-types:CFXRRuntime: 4b7d3298737c87d3996e10b763373c6a -> 453c18230450fd24f51e90fe9655b7ef
-  custom:scripting/monoscript/fileName/CFXR_EmissionBySurface.cs: ace1fbedccc09febe364c5088d60b3b3 -> 6294a85dd8a1718740abd2427d3ed0fe
-  custom:scripting/monoscript/fileName/CFXR_Demo_Rotate.cs: fcad54cf80c113a8573a07edd452f948 -> 558719a58b028e94222b368a7326d6e9
-  custom:scripting/precompiled-assembly-types:CFXR.WelcomeScreen: c8e415fdf4455338cd73d67fdf1083cf -> e308a2494ec7b1eea3ee27540cbddee3
-  custom:scripting/monoscript/fileName/CFXR_ExpressionParser.cs: f9b5276a4e540080f15d5067545c3777 -> 215820334dc899aa183f0061c3ffd288
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/CFXR_Demo_Translate.cs: 282d9f9a6ecf0d4a1c6c4f01345e01a1 -> bf3bdd14f5899835d13cb9fe83e767e2
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/CFXR_ParticleText.cs: 954edc24969e7d36de6c6a079a85cb98 -> 3f1f97f09f1dd1cf194149bcb9712660
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/BloomGraphDrawer.cs: 568ae764c377db66faaeb7833d4bccb3 -> 9600e9f64d67dabab17944976945a2fa
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/Bloom.cs: f2208c314d0170133875ca9a9b688726 -> 3b16b4d33f3d30843d2aa87b6206b4be
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/CFXR_Demo.cs: dafb48c744f8f9712e2a19d95bc33b43 -> 2236c91491221800136a918da2fc2861
-  custom:scripting/monoscript/fileName/RotateCamera.cs: b4ebab61f19186bced7daca51960221b -> 98ccf3939531c531b9303e44cbedd54a
-  custom:scripting/monoscript/fileName/CFXR_ShaderPostProcessor.cs: 8c6e989bfa7de8931452a3b2acaa3404 -> eee4c4410265e19bfd8b3e2c4c5b2a2d
-  custom:scripting/monoscript/fileName/BloomEditor.cs: c4397c906d0b1ab144602495c41137c2 -> 89e0e0bc60c6236a30fe9f86121d654c
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: d3564023da91f6ff401a10e33c633bb4 -> ef8945688f6a5bca09f34070b4e4e26c
-  custom:scripting/precompiled-assembly-types:KinoBloom.Runtime: ee75d5194ca5977886a85b0c51da86ec -> fd8e0c14623ea1bc5e8eaca3fd20f83a
-========================================================================
-Received Prepare
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Import Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Caller must complete domain reload
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Import Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.360 seconds
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Import Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.936 seconds
-Domain Reload Profiling: 1292ms
-	BeginReloadAssembly (122ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (178ms)
-		LoadAssemblies (243ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (7ms)
-			TypeCache.Refresh (3ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (937ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (340ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (19ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (74ms)
-			ProcessInitializeOnLoadAttributes (218ms)
-			ProcessInitializeOnLoadMethodAttributes (14ms)
-			AfterProcessingInitializeOnLoad (13ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 6.14 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3117 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3656.
-Memory consumption went from 128.6 MB to 128.6 MB.
-Total: 2.185000 ms (FindLiveObjects: 0.201800 ms CreateObjectMapping: 0.051300 ms MarkObjects: 1.901600 ms  DeleteObjects: 0.029400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/CFXR_Styles.cs: 0757069e7af3ba4444d0d25cf7f1aee1 -> 14132385ef0a62dc85f08de4f5687ece
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/CFXR_WelcomeScreen.cs: 5eb9ee92d995a38201f6434fb34b524a -> 9c94608da2bdcc5de3ace1327c049746
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/CFXR_ParticleTextFontAsset.cs: 2c0f5b39375fdb3ffea33678dba0f2b1 -> 997a733798b2c803fc88cc92695e7ca4
-  custom:scripting/monoscript/fileName/CFXR_MaterialInspector.cs: 0c5bfea224b575e2646313fc42f2e08d -> 85a99159289e64398275fbc6500bb9a8
-  custom:scripting/precompiled-assembly-types:CFXRDemo: 39a2898875bf1b2af96e7f493aaf6992 -> 0ca116c5ab8da0415d04be2dd85a34dd
-  custom:scripting/monoscript/fileName/CFXR_ShaderImporter.cs: a566cd0f556f35f05719aac10415b17c -> f0ef3fb7c5ca7b4517f50c44917fac9e
-  custom:scripting/monoscript/fileName/CFXR_Effect.CameraShake.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
-  custom:scripting/monoscript/fileName/Plane.cs: e29f347cbd90ff08e7a879382a677529 -> 951808986591dd74022294b0d9970bf2
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:scripting/precompiled-assembly-types:CFXREditor: 4f936f8b7ba24e578c308da5e89b6e6e -> 208c3af22db142123aba5816f8aa1b45
-  custom:scripting/precompiled-assembly-types:ToonyColorsPro.Demo.Editor: b2887f6afbd994deccfdca747a2ef79f -> 6b694ea541e62ce2d03a0131e66c5b89
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/precompiled-assembly-types:CFXRRuntime: 4b7d3298737c87d3996e10b763373c6a -> 453c18230450fd24f51e90fe9655b7ef
-  custom:scripting/monoscript/fileName/CFXR_EmissionBySurface.cs: ace1fbedccc09febe364c5088d60b3b3 -> 6294a85dd8a1718740abd2427d3ed0fe
-  custom:scripting/monoscript/fileName/CFXR_Demo_Rotate.cs: fcad54cf80c113a8573a07edd452f948 -> 558719a58b028e94222b368a7326d6e9
-  custom:scripting/precompiled-assembly-types:CFXR.WelcomeScreen: c8e415fdf4455338cd73d67fdf1083cf -> e308a2494ec7b1eea3ee27540cbddee3
-  custom:scripting/monoscript/fileName/CFXR_ExpressionParser.cs: f9b5276a4e540080f15d5067545c3777 -> 215820334dc899aa183f0061c3ffd288
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/CFXR_Demo_Translate.cs: 282d9f9a6ecf0d4a1c6c4f01345e01a1 -> bf3bdd14f5899835d13cb9fe83e767e2
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/CFXR_ParticleText.cs: 954edc24969e7d36de6c6a079a85cb98 -> 3f1f97f09f1dd1cf194149bcb9712660
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/BloomGraphDrawer.cs: 568ae764c377db66faaeb7833d4bccb3 -> 9600e9f64d67dabab17944976945a2fa
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/Bloom.cs: f2208c314d0170133875ca9a9b688726 -> 3b16b4d33f3d30843d2aa87b6206b4be
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/CFXR_Demo.cs: dafb48c744f8f9712e2a19d95bc33b43 -> 2236c91491221800136a918da2fc2861
-  custom:scripting/monoscript/fileName/RotateCamera.cs: b4ebab61f19186bced7daca51960221b -> 98ccf3939531c531b9303e44cbedd54a
-  custom:scripting/monoscript/fileName/CFXR_ShaderPostProcessor.cs: 8c6e989bfa7de8931452a3b2acaa3404 -> eee4c4410265e19bfd8b3e2c4c5b2a2d
-  custom:scripting/monoscript/fileName/BloomEditor.cs: c4397c906d0b1ab144602495c41137c2 -> 89e0e0bc60c6236a30fe9f86121d654c
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: d3564023da91f6ff401a10e33c633bb4 -> ef8945688f6a5bca09f34070b4e4e26c
-  custom:scripting/precompiled-assembly-types:KinoBloom.Runtime: ee75d5194ca5977886a85b0c51da86ec -> fd8e0c14623ea1bc5e8eaca3fd20f83a
-========================================================================
-Received Prepare
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Import Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Caller must complete domain reload
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Import Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.374 seconds
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Import Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.979 seconds
-Domain Reload Profiling: 1348ms
-	BeginReloadAssembly (128ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (20ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (187ms)
-		LoadAssemblies (253ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (9ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (979ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (342ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (19ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (221ms)
-			ProcessInitializeOnLoadMethodAttributes (14ms)
-			AfterProcessingInitializeOnLoad (13ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 5.71 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3117 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3659.
-Memory consumption went from 128.6 MB to 128.6 MB.
-Total: 2.867000 ms (FindLiveObjects: 0.334500 ms CreateObjectMapping: 0.053800 ms MarkObjects: 2.438500 ms  DeleteObjects: 0.039200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/CFXR_Styles.cs: 0757069e7af3ba4444d0d25cf7f1aee1 -> 14132385ef0a62dc85f08de4f5687ece
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/CFXR_WelcomeScreen.cs: 5eb9ee92d995a38201f6434fb34b524a -> 9c94608da2bdcc5de3ace1327c049746
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/CFXR_ParticleTextFontAsset.cs: 2c0f5b39375fdb3ffea33678dba0f2b1 -> 997a733798b2c803fc88cc92695e7ca4
-  custom:scripting/monoscript/fileName/CFXR_MaterialInspector.cs: 0c5bfea224b575e2646313fc42f2e08d -> 85a99159289e64398275fbc6500bb9a8
-  custom:scripting/precompiled-assembly-types:CFXRDemo: 39a2898875bf1b2af96e7f493aaf6992 -> 0ca116c5ab8da0415d04be2dd85a34dd
-  custom:scripting/monoscript/fileName/CFXR_ShaderImporter.cs: a566cd0f556f35f05719aac10415b17c -> f0ef3fb7c5ca7b4517f50c44917fac9e
-  custom:scripting/monoscript/fileName/CFXR_Effect.CameraShake.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
-  custom:scripting/monoscript/fileName/Plane.cs: e29f347cbd90ff08e7a879382a677529 -> 951808986591dd74022294b0d9970bf2
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:scripting/precompiled-assembly-types:CFXREditor: 4f936f8b7ba24e578c308da5e89b6e6e -> 208c3af22db142123aba5816f8aa1b45
-  custom:scripting/precompiled-assembly-types:ToonyColorsPro.Demo.Editor: b2887f6afbd994deccfdca747a2ef79f -> 6b694ea541e62ce2d03a0131e66c5b89
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/precompiled-assembly-types:CFXRRuntime: 4b7d3298737c87d3996e10b763373c6a -> 453c18230450fd24f51e90fe9655b7ef
-  custom:scripting/monoscript/fileName/CFXR_EmissionBySurface.cs: ace1fbedccc09febe364c5088d60b3b3 -> 6294a85dd8a1718740abd2427d3ed0fe
-  custom:scripting/monoscript/fileName/CFXR_Demo_Rotate.cs: fcad54cf80c113a8573a07edd452f948 -> 558719a58b028e94222b368a7326d6e9
-  custom:scripting/precompiled-assembly-types:CFXR.WelcomeScreen: c8e415fdf4455338cd73d67fdf1083cf -> e308a2494ec7b1eea3ee27540cbddee3
-  custom:scripting/monoscript/fileName/CFXR_ExpressionParser.cs: f9b5276a4e540080f15d5067545c3777 -> 215820334dc899aa183f0061c3ffd288
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/CFXR_Demo_Translate.cs: 282d9f9a6ecf0d4a1c6c4f01345e01a1 -> bf3bdd14f5899835d13cb9fe83e767e2
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/CFXR_ParticleText.cs: 954edc24969e7d36de6c6a079a85cb98 -> 3f1f97f09f1dd1cf194149bcb9712660
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/BloomGraphDrawer.cs: 568ae764c377db66faaeb7833d4bccb3 -> 9600e9f64d67dabab17944976945a2fa
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/Bloom.cs: f2208c314d0170133875ca9a9b688726 -> 3b16b4d33f3d30843d2aa87b6206b4be
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/CFXR_Demo.cs: dafb48c744f8f9712e2a19d95bc33b43 -> 2236c91491221800136a918da2fc2861
-  custom:scripting/monoscript/fileName/RotateCamera.cs: b4ebab61f19186bced7daca51960221b -> 98ccf3939531c531b9303e44cbedd54a
-  custom:scripting/monoscript/fileName/CFXR_ShaderPostProcessor.cs: 8c6e989bfa7de8931452a3b2acaa3404 -> eee4c4410265e19bfd8b3e2c4c5b2a2d
-  custom:scripting/monoscript/fileName/BloomEditor.cs: c4397c906d0b1ab144602495c41137c2 -> 89e0e0bc60c6236a30fe9f86121d654c
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: d3564023da91f6ff401a10e33c633bb4 -> ef8945688f6a5bca09f34070b4e4e26c
-  custom:scripting/precompiled-assembly-types:KinoBloom.Runtime: ee75d5194ca5977886a85b0c51da86ec -> fd8e0c14623ea1bc5e8eaca3fd20f83a
-========================================================================
-Received Import Request.
-  Time since last request: 191.386647 seconds.
-  path: Assets/Scripts/Background.cs
-  artifactKey: Guid(e05cea98875406341812d1b95531b048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Background.cs using Guid(e05cea98875406341812d1b95531b048) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9a2b11a9d1ff466940300f02e58c038d') in 0.002741 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Import Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Caller must complete domain reload
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Import Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.373 seconds
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Import Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.878 seconds
-Domain Reload Profiling: 1246ms
-	BeginReloadAssembly (126ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (186ms)
-		LoadAssemblies (245ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (15ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (4ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (878ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (297ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (191ms)
-			ProcessInitializeOnLoadMethodAttributes (12ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 5.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3117 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3663.
-Memory consumption went from 128.4 MB to 128.4 MB.
-Total: 2.240900 ms (FindLiveObjects: 0.208700 ms CreateObjectMapping: 0.047200 ms MarkObjects: 1.954900 ms  DeleteObjects: 0.029600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/CFXR_Styles.cs: 0757069e7af3ba4444d0d25cf7f1aee1 -> 14132385ef0a62dc85f08de4f5687ece
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/CFXR_WelcomeScreen.cs: 5eb9ee92d995a38201f6434fb34b524a -> 9c94608da2bdcc5de3ace1327c049746
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/CFXR_ParticleTextFontAsset.cs: 2c0f5b39375fdb3ffea33678dba0f2b1 -> 997a733798b2c803fc88cc92695e7ca4
-  custom:scripting/monoscript/fileName/CFXR_MaterialInspector.cs: 0c5bfea224b575e2646313fc42f2e08d -> 85a99159289e64398275fbc6500bb9a8
-  custom:scripting/precompiled-assembly-types:CFXRDemo: 39a2898875bf1b2af96e7f493aaf6992 -> 0ca116c5ab8da0415d04be2dd85a34dd
-  custom:scripting/monoscript/fileName/CFXR_ShaderImporter.cs: a566cd0f556f35f05719aac10415b17c -> f0ef3fb7c5ca7b4517f50c44917fac9e
-  custom:scripting/monoscript/fileName/CFXR_Effect.CameraShake.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
-  custom:scripting/monoscript/fileName/Plane.cs: e29f347cbd90ff08e7a879382a677529 -> 951808986591dd74022294b0d9970bf2
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:scripting/precompiled-assembly-types:CFXREditor: 4f936f8b7ba24e578c308da5e89b6e6e -> 208c3af22db142123aba5816f8aa1b45
-  custom:scripting/precompiled-assembly-types:ToonyColorsPro.Demo.Editor: b2887f6afbd994deccfdca747a2ef79f -> 6b694ea541e62ce2d03a0131e66c5b89
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/precompiled-assembly-types:CFXRRuntime: 4b7d3298737c87d3996e10b763373c6a -> 453c18230450fd24f51e90fe9655b7ef
-  custom:scripting/monoscript/fileName/CFXR_EmissionBySurface.cs: ace1fbedccc09febe364c5088d60b3b3 -> 6294a85dd8a1718740abd2427d3ed0fe
-  custom:scripting/monoscript/fileName/CFXR_Demo_Rotate.cs: fcad54cf80c113a8573a07edd452f948 -> 558719a58b028e94222b368a7326d6e9
-  custom:scripting/precompiled-assembly-types:CFXR.WelcomeScreen: c8e415fdf4455338cd73d67fdf1083cf -> e308a2494ec7b1eea3ee27540cbddee3
-  custom:scripting/monoscript/fileName/CFXR_ExpressionParser.cs: f9b5276a4e540080f15d5067545c3777 -> 215820334dc899aa183f0061c3ffd288
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/CFXR_Demo_Translate.cs: 282d9f9a6ecf0d4a1c6c4f01345e01a1 -> bf3bdd14f5899835d13cb9fe83e767e2
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/CFXR_ParticleText.cs: 954edc24969e7d36de6c6a079a85cb98 -> 3f1f97f09f1dd1cf194149bcb9712660
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/Background.cs: f6a0093f60546c867f1f521fbd422b88 -> 
-  custom:scripting/monoscript/fileName/BloomGraphDrawer.cs: 568ae764c377db66faaeb7833d4bccb3 -> 9600e9f64d67dabab17944976945a2fa
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/Bloom.cs: f2208c314d0170133875ca9a9b688726 -> 3b16b4d33f3d30843d2aa87b6206b4be
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/CFXR_Demo.cs: dafb48c744f8f9712e2a19d95bc33b43 -> 2236c91491221800136a918da2fc2861
-  custom:scripting/monoscript/fileName/RotateCamera.cs: b4ebab61f19186bced7daca51960221b -> 98ccf3939531c531b9303e44cbedd54a
-  custom:scripting/monoscript/fileName/CFXR_ShaderPostProcessor.cs: 8c6e989bfa7de8931452a3b2acaa3404 -> eee4c4410265e19bfd8b3e2c4c5b2a2d
-  custom:scripting/monoscript/fileName/BloomEditor.cs: c4397c906d0b1ab144602495c41137c2 -> 89e0e0bc60c6236a30fe9f86121d654c
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: dd9f865dff4b9dfcaf0d6ac766943481 -> ef8945688f6a5bca09f34070b4e4e26c
-  custom:scripting/precompiled-assembly-types:KinoBloom.Runtime: ee75d5194ca5977886a85b0c51da86ec -> fd8e0c14623ea1bc5e8eaca3fd20f83a
-========================================================================
-Received Import Request.
-  Time since last request: 3.850941 seconds.
-  path: Assets/Scripts/Background.cs
-  artifactKey: Guid(e05cea98875406341812d1b95531b048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Background.cs using Guid(e05cea98875406341812d1b95531b048) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '483195a1f7c649fefb2f97aad654cbd4') in 0.001797 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Import Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Caller must complete domain reload
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Import Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.505 seconds
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Import Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.042 seconds
-Domain Reload Profiling: 1539ms
-	BeginReloadAssembly (153ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (273ms)
-		LoadAssemblies (348ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (17ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (5ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (1042ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (360ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (232ms)
-			ProcessInitializeOnLoadMethodAttributes (15ms)
-			AfterProcessingInitializeOnLoad (15ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 5.17 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3117 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3666.
-Memory consumption went from 128.4 MB to 128.4 MB.
-Total: 2.282500 ms (FindLiveObjects: 0.202500 ms CreateObjectMapping: 0.043600 ms MarkObjects: 2.005900 ms  DeleteObjects: 0.030000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/CFXR_Styles.cs: 0757069e7af3ba4444d0d25cf7f1aee1 -> 14132385ef0a62dc85f08de4f5687ece
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/CFXR_WelcomeScreen.cs: 5eb9ee92d995a38201f6434fb34b524a -> 9c94608da2bdcc5de3ace1327c049746
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/CFXR_ParticleTextFontAsset.cs: 2c0f5b39375fdb3ffea33678dba0f2b1 -> 997a733798b2c803fc88cc92695e7ca4
-  custom:scripting/monoscript/fileName/CFXR_MaterialInspector.cs: 0c5bfea224b575e2646313fc42f2e08d -> 85a99159289e64398275fbc6500bb9a8
-  custom:scripting/precompiled-assembly-types:CFXRDemo: 39a2898875bf1b2af96e7f493aaf6992 -> 0ca116c5ab8da0415d04be2dd85a34dd
-  custom:scripting/monoscript/fileName/CFXR_ShaderImporter.cs: a566cd0f556f35f05719aac10415b17c -> f0ef3fb7c5ca7b4517f50c44917fac9e
-  custom:scripting/monoscript/fileName/CFXR_Effect.CameraShake.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
-  custom:scripting/monoscript/fileName/Plane.cs: e29f347cbd90ff08e7a879382a677529 -> 951808986591dd74022294b0d9970bf2
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:scripting/precompiled-assembly-types:CFXREditor: 4f936f8b7ba24e578c308da5e89b6e6e -> 208c3af22db142123aba5816f8aa1b45
-  custom:scripting/precompiled-assembly-types:ToonyColorsPro.Demo.Editor: b2887f6afbd994deccfdca747a2ef79f -> 6b694ea541e62ce2d03a0131e66c5b89
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/precompiled-assembly-types:CFXRRuntime: 4b7d3298737c87d3996e10b763373c6a -> 453c18230450fd24f51e90fe9655b7ef
-  custom:scripting/monoscript/fileName/CFXR_EmissionBySurface.cs: ace1fbedccc09febe364c5088d60b3b3 -> 6294a85dd8a1718740abd2427d3ed0fe
-  custom:scripting/monoscript/fileName/CFXR_Demo_Rotate.cs: fcad54cf80c113a8573a07edd452f948 -> 558719a58b028e94222b368a7326d6e9
-  custom:scripting/precompiled-assembly-types:CFXR.WelcomeScreen: c8e415fdf4455338cd73d67fdf1083cf -> e308a2494ec7b1eea3ee27540cbddee3
-  custom:scripting/monoscript/fileName/CFXR_ExpressionParser.cs: f9b5276a4e540080f15d5067545c3777 -> 215820334dc899aa183f0061c3ffd288
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/CFXR_Demo_Translate.cs: 282d9f9a6ecf0d4a1c6c4f01345e01a1 -> bf3bdd14f5899835d13cb9fe83e767e2
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/CFXR_ParticleText.cs: 954edc24969e7d36de6c6a079a85cb98 -> 3f1f97f09f1dd1cf194149bcb9712660
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/Background.cs: f6a0093f60546c867f1f521fbd422b88 -> 
-  custom:scripting/monoscript/fileName/BloomGraphDrawer.cs: 568ae764c377db66faaeb7833d4bccb3 -> 9600e9f64d67dabab17944976945a2fa
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/Bloom.cs: f2208c314d0170133875ca9a9b688726 -> 3b16b4d33f3d30843d2aa87b6206b4be
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/CFXR_Demo.cs: dafb48c744f8f9712e2a19d95bc33b43 -> 2236c91491221800136a918da2fc2861
-  custom:scripting/monoscript/fileName/RotateCamera.cs: b4ebab61f19186bced7daca51960221b -> 98ccf3939531c531b9303e44cbedd54a
-  custom:scripting/monoscript/fileName/CFXR_ShaderPostProcessor.cs: 8c6e989bfa7de8931452a3b2acaa3404 -> eee4c4410265e19bfd8b3e2c4c5b2a2d
-  custom:scripting/monoscript/fileName/BloomEditor.cs: c4397c906d0b1ab144602495c41137c2 -> 89e0e0bc60c6236a30fe9f86121d654c
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: dd9f865dff4b9dfcaf0d6ac766943481 -> ef8945688f6a5bca09f34070b4e4e26c
-  custom:scripting/precompiled-assembly-types:KinoBloom.Runtime: ee75d5194ca5977886a85b0c51da86ec -> fd8e0c14623ea1bc5e8eaca3fd20f83a
-========================================================================
-Received Prepare
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Import Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Caller must complete domain reload
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Import Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.473 seconds
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Import Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.046 seconds
-Domain Reload Profiling: 1513ms
-	BeginReloadAssembly (146ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (225ms)
-		LoadAssemblies (300ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (16ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (5ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (1047ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (367ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (71ms)
-			ProcessInitializeOnLoadAttributes (244ms)
-			ProcessInitializeOnLoadMethodAttributes (15ms)
-			AfterProcessingInitializeOnLoad (15ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 5.26 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3118 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3669.
-Memory consumption went from 128.6 MB to 128.6 MB.
-Total: 2.247700 ms (FindLiveObjects: 0.187600 ms CreateObjectMapping: 0.048600 ms MarkObjects: 1.981300 ms  DeleteObjects: 0.029900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/CFXR_Styles.cs: 0757069e7af3ba4444d0d25cf7f1aee1 -> 14132385ef0a62dc85f08de4f5687ece
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/CFXR_WelcomeScreen.cs: 5eb9ee92d995a38201f6434fb34b524a -> 9c94608da2bdcc5de3ace1327c049746
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/CFXR_ParticleTextFontAsset.cs: 2c0f5b39375fdb3ffea33678dba0f2b1 -> 997a733798b2c803fc88cc92695e7ca4
-  custom:scripting/monoscript/fileName/CFXR_MaterialInspector.cs: 0c5bfea224b575e2646313fc42f2e08d -> 85a99159289e64398275fbc6500bb9a8
-  custom:scripting/precompiled-assembly-types:CFXRDemo: 39a2898875bf1b2af96e7f493aaf6992 -> 0ca116c5ab8da0415d04be2dd85a34dd
-  custom:scripting/monoscript/fileName/CFXR_ShaderImporter.cs: a566cd0f556f35f05719aac10415b17c -> f0ef3fb7c5ca7b4517f50c44917fac9e
-  custom:scripting/monoscript/fileName/CFXR_Effect.CameraShake.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
-  custom:scripting/monoscript/fileName/Plane.cs: e29f347cbd90ff08e7a879382a677529 -> 951808986591dd74022294b0d9970bf2
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:scripting/precompiled-assembly-types:CFXREditor: 4f936f8b7ba24e578c308da5e89b6e6e -> 208c3af22db142123aba5816f8aa1b45
-  custom:scripting/precompiled-assembly-types:ToonyColorsPro.Demo.Editor: b2887f6afbd994deccfdca747a2ef79f -> 6b694ea541e62ce2d03a0131e66c5b89
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/precompiled-assembly-types:CFXRRuntime: 4b7d3298737c87d3996e10b763373c6a -> 453c18230450fd24f51e90fe9655b7ef
-  custom:scripting/monoscript/fileName/CFXR_EmissionBySurface.cs: ace1fbedccc09febe364c5088d60b3b3 -> 6294a85dd8a1718740abd2427d3ed0fe
-  custom:scripting/monoscript/fileName/CFXR_Demo_Rotate.cs: fcad54cf80c113a8573a07edd452f948 -> 558719a58b028e94222b368a7326d6e9
-  custom:scripting/precompiled-assembly-types:CFXR.WelcomeScreen: c8e415fdf4455338cd73d67fdf1083cf -> e308a2494ec7b1eea3ee27540cbddee3
-  custom:scripting/monoscript/fileName/CFXR_ExpressionParser.cs: f9b5276a4e540080f15d5067545c3777 -> 215820334dc899aa183f0061c3ffd288
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/CFXR_Demo_Translate.cs: 282d9f9a6ecf0d4a1c6c4f01345e01a1 -> bf3bdd14f5899835d13cb9fe83e767e2
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/CFXR_ParticleText.cs: 954edc24969e7d36de6c6a079a85cb98 -> 3f1f97f09f1dd1cf194149bcb9712660
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/Background.cs: f6a0093f60546c867f1f521fbd422b88 -> 
-  custom:scripting/monoscript/fileName/BloomGraphDrawer.cs: 568ae764c377db66faaeb7833d4bccb3 -> 9600e9f64d67dabab17944976945a2fa
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/Bloom.cs: f2208c314d0170133875ca9a9b688726 -> 3b16b4d33f3d30843d2aa87b6206b4be
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/CFXR_Demo.cs: dafb48c744f8f9712e2a19d95bc33b43 -> 2236c91491221800136a918da2fc2861
-  custom:scripting/monoscript/fileName/RotateCamera.cs: b4ebab61f19186bced7daca51960221b -> 98ccf3939531c531b9303e44cbedd54a
-  custom:scripting/monoscript/fileName/CFXR_ShaderPostProcessor.cs: 8c6e989bfa7de8931452a3b2acaa3404 -> eee4c4410265e19bfd8b3e2c4c5b2a2d
-  custom:scripting/monoscript/fileName/BloomEditor.cs: c4397c906d0b1ab144602495c41137c2 -> 89e0e0bc60c6236a30fe9f86121d654c
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: dd9f865dff4b9dfcaf0d6ac766943481 -> ef8945688f6a5bca09f34070b4e4e26c
-  custom:scripting/precompiled-assembly-types:KinoBloom.Runtime: ee75d5194ca5977886a85b0c51da86ec -> fd8e0c14623ea1bc5e8eaca3fd20f83a
-========================================================================
-Received Prepare
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Import Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Caller must complete domain reload
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Import Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.392 seconds
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Import Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.017 seconds
-Domain Reload Profiling: 1404ms
-	BeginReloadAssembly (130ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (195ms)
-		LoadAssemblies (263ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (9ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (1017ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (351ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (77ms)
-			ProcessInitializeOnLoadAttributes (225ms)
-			ProcessInitializeOnLoadMethodAttributes (14ms)
-			AfterProcessingInitializeOnLoad (14ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 7.41 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3118 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3672.
-Memory consumption went from 128.7 MB to 128.6 MB.
-Total: 2.215800 ms (FindLiveObjects: 0.248800 ms CreateObjectMapping: 0.070300 ms MarkObjects: 1.863400 ms  DeleteObjects: 0.032500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/CFXR_Styles.cs: 0757069e7af3ba4444d0d25cf7f1aee1 -> 14132385ef0a62dc85f08de4f5687ece
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/CFXR_WelcomeScreen.cs: 5eb9ee92d995a38201f6434fb34b524a -> 9c94608da2bdcc5de3ace1327c049746
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/CFXR_ParticleTextFontAsset.cs: 2c0f5b39375fdb3ffea33678dba0f2b1 -> 997a733798b2c803fc88cc92695e7ca4
-  custom:scripting/monoscript/fileName/CFXR_MaterialInspector.cs: 0c5bfea224b575e2646313fc42f2e08d -> 85a99159289e64398275fbc6500bb9a8
-  custom:scripting/precompiled-assembly-types:CFXRDemo: 39a2898875bf1b2af96e7f493aaf6992 -> 0ca116c5ab8da0415d04be2dd85a34dd
-  custom:scripting/monoscript/fileName/CFXR_ShaderImporter.cs: a566cd0f556f35f05719aac10415b17c -> f0ef3fb7c5ca7b4517f50c44917fac9e
-  custom:scripting/monoscript/fileName/CFXR_Effect.CameraShake.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
-  custom:scripting/monoscript/fileName/Plane.cs: e29f347cbd90ff08e7a879382a677529 -> 951808986591dd74022294b0d9970bf2
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:scripting/precompiled-assembly-types:CFXREditor: 4f936f8b7ba24e578c308da5e89b6e6e -> 208c3af22db142123aba5816f8aa1b45
-  custom:scripting/precompiled-assembly-types:ToonyColorsPro.Demo.Editor: b2887f6afbd994deccfdca747a2ef79f -> 6b694ea541e62ce2d03a0131e66c5b89
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/precompiled-assembly-types:CFXRRuntime: 4b7d3298737c87d3996e10b763373c6a -> 453c18230450fd24f51e90fe9655b7ef
-  custom:scripting/monoscript/fileName/CFXR_EmissionBySurface.cs: ace1fbedccc09febe364c5088d60b3b3 -> 6294a85dd8a1718740abd2427d3ed0fe
-  custom:scripting/monoscript/fileName/CFXR_Demo_Rotate.cs: fcad54cf80c113a8573a07edd452f948 -> 558719a58b028e94222b368a7326d6e9
-  custom:scripting/precompiled-assembly-types:CFXR.WelcomeScreen: c8e415fdf4455338cd73d67fdf1083cf -> e308a2494ec7b1eea3ee27540cbddee3
-  custom:scripting/monoscript/fileName/CFXR_ExpressionParser.cs: f9b5276a4e540080f15d5067545c3777 -> 215820334dc899aa183f0061c3ffd288
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/CFXR_Demo_Translate.cs: 282d9f9a6ecf0d4a1c6c4f01345e01a1 -> bf3bdd14f5899835d13cb9fe83e767e2
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/CFXR_ParticleText.cs: 954edc24969e7d36de6c6a079a85cb98 -> 3f1f97f09f1dd1cf194149bcb9712660
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/Background.cs: f6a0093f60546c867f1f521fbd422b88 -> 
-  custom:scripting/monoscript/fileName/BloomGraphDrawer.cs: 568ae764c377db66faaeb7833d4bccb3 -> 9600e9f64d67dabab17944976945a2fa
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/Bloom.cs: f2208c314d0170133875ca9a9b688726 -> 3b16b4d33f3d30843d2aa87b6206b4be
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/CFXR_Demo.cs: dafb48c744f8f9712e2a19d95bc33b43 -> 2236c91491221800136a918da2fc2861
-  custom:scripting/monoscript/fileName/RotateCamera.cs: b4ebab61f19186bced7daca51960221b -> 98ccf3939531c531b9303e44cbedd54a
-  custom:scripting/monoscript/fileName/CFXR_ShaderPostProcessor.cs: 8c6e989bfa7de8931452a3b2acaa3404 -> eee4c4410265e19bfd8b3e2c4c5b2a2d
-  custom:scripting/monoscript/fileName/BloomEditor.cs: c4397c906d0b1ab144602495c41137c2 -> 89e0e0bc60c6236a30fe9f86121d654c
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: dd9f865dff4b9dfcaf0d6ac766943481 -> ef8945688f6a5bca09f34070b4e4e26c
-  custom:scripting/precompiled-assembly-types:KinoBloom.Runtime: ee75d5194ca5977886a85b0c51da86ec -> fd8e0c14623ea1bc5e8eaca3fd20f83a
-========================================================================
-Received Prepare
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Import Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Caller must complete domain reload
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Import Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.468 seconds
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Import Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.050 seconds
-Domain Reload Profiling: 1510ms
-	BeginReloadAssembly (152ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (237ms)
-		LoadAssemblies (312ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (16ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (4ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (1050ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (379ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (77ms)
-			ProcessInitializeOnLoadAttributes (248ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (14ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (227ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (12ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 5.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3118 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3675.
-Memory consumption went from 128.7 MB to 128.6 MB.
-Total: 2.031100 ms (FindLiveObjects: 0.193700 ms CreateObjectMapping: 0.051600 ms MarkObjects: 1.755800 ms  DeleteObjects: 0.029200 ms)
+Unloading 3117 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3621.
+Memory consumption went from 127.5 MB to 127.4 MB.
+Total: 2.620300 ms (FindLiveObjects: 0.218000 ms CreateObjectMapping: 0.102900 ms MarkObjects: 2.249400 ms  DeleteObjects: 0.049400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/CFXR_Styles.cs: 0757069e7af3ba4444d0d25cf7f1aee1 -> 14132385ef0a62dc85f08de4f5687ece
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/CFXR_WelcomeScreen.cs: 5eb9ee92d995a38201f6434fb34b524a -> 9c94608da2bdcc5de3ace1327c049746
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/CFXR_ParticleTextFontAsset.cs: 2c0f5b39375fdb3ffea33678dba0f2b1 -> 997a733798b2c803fc88cc92695e7ca4
-  custom:scripting/monoscript/fileName/CFXR_MaterialInspector.cs: 0c5bfea224b575e2646313fc42f2e08d -> 85a99159289e64398275fbc6500bb9a8
-  custom:scripting/precompiled-assembly-types:CFXRDemo: 39a2898875bf1b2af96e7f493aaf6992 -> 0ca116c5ab8da0415d04be2dd85a34dd
-  custom:scripting/monoscript/fileName/CFXR_ShaderImporter.cs: a566cd0f556f35f05719aac10415b17c -> f0ef3fb7c5ca7b4517f50c44917fac9e
-  custom:scripting/monoscript/fileName/CFXR_Effect.CameraShake.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
-  custom:scripting/monoscript/fileName/Plane.cs: e29f347cbd90ff08e7a879382a677529 -> 951808986591dd74022294b0d9970bf2
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:scripting/precompiled-assembly-types:CFXREditor: 4f936f8b7ba24e578c308da5e89b6e6e -> 208c3af22db142123aba5816f8aa1b45
-  custom:scripting/precompiled-assembly-types:ToonyColorsPro.Demo.Editor: b2887f6afbd994deccfdca747a2ef79f -> 6b694ea541e62ce2d03a0131e66c5b89
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/precompiled-assembly-types:CFXRRuntime: 4b7d3298737c87d3996e10b763373c6a -> 453c18230450fd24f51e90fe9655b7ef
-  custom:scripting/monoscript/fileName/CFXR_EmissionBySurface.cs: ace1fbedccc09febe364c5088d60b3b3 -> 6294a85dd8a1718740abd2427d3ed0fe
-  custom:scripting/monoscript/fileName/CFXR_Demo_Rotate.cs: fcad54cf80c113a8573a07edd452f948 -> 558719a58b028e94222b368a7326d6e9
-  custom:scripting/precompiled-assembly-types:CFXR.WelcomeScreen: c8e415fdf4455338cd73d67fdf1083cf -> e308a2494ec7b1eea3ee27540cbddee3
-  custom:scripting/monoscript/fileName/CFXR_ExpressionParser.cs: f9b5276a4e540080f15d5067545c3777 -> 215820334dc899aa183f0061c3ffd288
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/CFXR_Demo_Translate.cs: 282d9f9a6ecf0d4a1c6c4f01345e01a1 -> bf3bdd14f5899835d13cb9fe83e767e2
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/CFXR_ParticleText.cs: 954edc24969e7d36de6c6a079a85cb98 -> 3f1f97f09f1dd1cf194149bcb9712660
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/Background.cs: f6a0093f60546c867f1f521fbd422b88 -> 
-  custom:scripting/monoscript/fileName/BloomGraphDrawer.cs: 568ae764c377db66faaeb7833d4bccb3 -> 9600e9f64d67dabab17944976945a2fa
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/Bloom.cs: f2208c314d0170133875ca9a9b688726 -> 3b16b4d33f3d30843d2aa87b6206b4be
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/CFXR_Demo.cs: dafb48c744f8f9712e2a19d95bc33b43 -> 2236c91491221800136a918da2fc2861
-  custom:scripting/monoscript/fileName/RotateCamera.cs: b4ebab61f19186bced7daca51960221b -> 98ccf3939531c531b9303e44cbedd54a
-  custom:scripting/monoscript/fileName/CFXR_ShaderPostProcessor.cs: 8c6e989bfa7de8931452a3b2acaa3404 -> eee4c4410265e19bfd8b3e2c4c5b2a2d
-  custom:scripting/monoscript/fileName/BloomEditor.cs: c4397c906d0b1ab144602495c41137c2 -> 89e0e0bc60c6236a30fe9f86121d654c
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: dd9f865dff4b9dfcaf0d6ac766943481 -> ef8945688f6a5bca09f34070b4e4e26c
-  custom:scripting/precompiled-assembly-types:KinoBloom.Runtime: ee75d5194ca5977886a85b0c51da86ec -> fd8e0c14623ea1bc5e8eaca3fd20f83a
 ========================================================================
 Received Prepare
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Import Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
 Caller must complete domain reload
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Import Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.439 seconds
+- Loaded All Assemblies, in  0.375 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXRRuntime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'CFXREditor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Import Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Import Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
-Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.046 seconds
-Domain Reload Profiling: 1478ms
-	BeginReloadAssembly (143ms)
+- Finished resetting the current domain, in  0.965 seconds
+Domain Reload Profiling: 1335ms
+	BeginReloadAssembly (127ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (2ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (222ms)
-		LoadAssemblies (297ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (189ms)
+		LoadAssemblies (257ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (11ms)
+		AnalyzeDomain (9ms)
 			TypeCache.Refresh (4ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (1046ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (965ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (355ms)
+		SetupLoadedEditorAssemblies (326ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
+			InitializePlatformSupportModulesInManaged (19ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (78ms)
-			ProcessInitializeOnLoadAttributes (226ms)
-			ProcessInitializeOnLoadMethodAttributes (15ms)
-			AfterProcessingInitializeOnLoad (14ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (223ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (13ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 6.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3118 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3678.
-Memory consumption went from 128.7 MB to 128.6 MB.
-Total: 2.422100 ms (FindLiveObjects: 0.207200 ms CreateObjectMapping: 0.047700 ms MarkObjects: 2.134100 ms  DeleteObjects: 0.032500 ms)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3624.
+Memory consumption went from 127.7 MB to 127.7 MB.
+Total: 2.578700 ms (FindLiveObjects: 0.204900 ms CreateObjectMapping: 0.080100 ms MarkObjects: 2.259100 ms  DeleteObjects: 0.033700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/CFXR_Styles.cs: 0757069e7af3ba4444d0d25cf7f1aee1 -> 14132385ef0a62dc85f08de4f5687ece
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/CFXR_WelcomeScreen.cs: 5eb9ee92d995a38201f6434fb34b524a -> 9c94608da2bdcc5de3ace1327c049746
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/CFXR_ParticleTextFontAsset.cs: 2c0f5b39375fdb3ffea33678dba0f2b1 -> 997a733798b2c803fc88cc92695e7ca4
-  custom:scripting/monoscript/fileName/CFXR_MaterialInspector.cs: 0c5bfea224b575e2646313fc42f2e08d -> 85a99159289e64398275fbc6500bb9a8
-  custom:scripting/precompiled-assembly-types:CFXRDemo: 39a2898875bf1b2af96e7f493aaf6992 -> 0ca116c5ab8da0415d04be2dd85a34dd
-  custom:scripting/monoscript/fileName/CFXR_ShaderImporter.cs: a566cd0f556f35f05719aac10415b17c -> f0ef3fb7c5ca7b4517f50c44917fac9e
-  custom:scripting/monoscript/fileName/CFXR_Effect.CameraShake.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
-  custom:scripting/monoscript/fileName/Plane.cs: e29f347cbd90ff08e7a879382a677529 -> 951808986591dd74022294b0d9970bf2
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:scripting/precompiled-assembly-types:CFXREditor: 4f936f8b7ba24e578c308da5e89b6e6e -> 208c3af22db142123aba5816f8aa1b45
-  custom:scripting/precompiled-assembly-types:ToonyColorsPro.Demo.Editor: b2887f6afbd994deccfdca747a2ef79f -> 6b694ea541e62ce2d03a0131e66c5b89
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/precompiled-assembly-types:CFXRRuntime: 4b7d3298737c87d3996e10b763373c6a -> 453c18230450fd24f51e90fe9655b7ef
-  custom:scripting/monoscript/fileName/CFXR_EmissionBySurface.cs: ace1fbedccc09febe364c5088d60b3b3 -> 6294a85dd8a1718740abd2427d3ed0fe
-  custom:scripting/monoscript/fileName/CFXR_Demo_Rotate.cs: fcad54cf80c113a8573a07edd452f948 -> 558719a58b028e94222b368a7326d6e9
-  custom:scripting/precompiled-assembly-types:CFXR.WelcomeScreen: c8e415fdf4455338cd73d67fdf1083cf -> e308a2494ec7b1eea3ee27540cbddee3
-  custom:scripting/monoscript/fileName/CFXR_ExpressionParser.cs: f9b5276a4e540080f15d5067545c3777 -> 215820334dc899aa183f0061c3ffd288
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/CFXR_Demo_Translate.cs: 282d9f9a6ecf0d4a1c6c4f01345e01a1 -> bf3bdd14f5899835d13cb9fe83e767e2
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/CFXR_ParticleText.cs: 954edc24969e7d36de6c6a079a85cb98 -> 3f1f97f09f1dd1cf194149bcb9712660
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/Background.cs: f6a0093f60546c867f1f521fbd422b88 -> 
-  custom:scripting/monoscript/fileName/BloomGraphDrawer.cs: 568ae764c377db66faaeb7833d4bccb3 -> 9600e9f64d67dabab17944976945a2fa
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/Bloom.cs: f2208c314d0170133875ca9a9b688726 -> 3b16b4d33f3d30843d2aa87b6206b4be
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/CFXR_Demo.cs: dafb48c744f8f9712e2a19d95bc33b43 -> 2236c91491221800136a918da2fc2861
-  custom:scripting/monoscript/fileName/RotateCamera.cs: b4ebab61f19186bced7daca51960221b -> 98ccf3939531c531b9303e44cbedd54a
-  custom:scripting/monoscript/fileName/CFXR_ShaderPostProcessor.cs: 8c6e989bfa7de8931452a3b2acaa3404 -> eee4c4410265e19bfd8b3e2c4c5b2a2d
-  custom:scripting/monoscript/fileName/BloomEditor.cs: c4397c906d0b1ab144602495c41137c2 -> 89e0e0bc60c6236a30fe9f86121d654c
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: dd9f865dff4b9dfcaf0d6ac766943481 -> ef8945688f6a5bca09f34070b4e4e26c
-  custom:scripting/precompiled-assembly-types:KinoBloom.Runtime: ee75d5194ca5977886a85b0c51da86ec -> fd8e0c14623ea1bc5e8eaca3fd20f83a
-========================================================================
-Received Import Request.
-  Time since last request: 294.025664 seconds.
-  path: Assets/Prefabs/Enemy.prefab
-  artifactKey: Guid(a031ceca2bc55154ab826001d8aed9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy.prefab using Guid(a031ceca2bc55154ab826001d8aed9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'fc18c175b9afd45e7e1cdb5f5822c3ff') in 0.004451 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 18.471554 seconds.
-  path: Assets/Prefabs/Bullet.prefab
-  artifactKey: Guid(c6663b393b53a5742869716e2dacf331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bullet.prefab using Guid(c6663b393b53a5742869716e2dacf331) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3ea9fa05a883bf3f4ddefa74c205fc58') in 0.000549 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.737222 seconds.
-  path: Assets/Prefabs/Bullet.prefab
-  artifactKey: Guid(c6663b393b53a5742869716e2dacf331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bullet.prefab using Guid(c6663b393b53a5742869716e2dacf331) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3ea9fa05a883bf3f4ddefa74c205fc58') in 0.000498 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0

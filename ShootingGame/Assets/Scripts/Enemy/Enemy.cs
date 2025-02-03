@@ -41,6 +41,22 @@ public class Enemy : MonoBehaviour
         GameObject explosion = Instantiate(explosionFactory);
         explosion.transform.position = transform.position;
 
+        // currentScore UI
+        GameObject smObject = GameObject.Find("ScoreManager");
+        ScoreManager scoreManager = smObject.GetComponent<ScoreManager>();
+        scoreManager.currentScore++;
+        scoreManager.currentScoreUI.text = "현재점수 : " + scoreManager.currentScore;
+
+        // bestScore UI
+        if(scoreManager.currentScore > scoreManager.bestScore)
+        {
+            scoreManager.bestScore = scoreManager.currentScore;
+            scoreManager.bestScoreUI.text = "최고점수 : " + scoreManager.bestScore;
+
+            // 최고점수 클라이언트에 저장
+            PlayerPrefs.SetInt("Best Score", scoreManager.bestScore);
+        }
+
         Destroy(collision.gameObject);
         Destroy(gameObject);
     }
