@@ -29,8 +29,9 @@ public class DestroyZone : MonoBehaviour
         {
             other.gameObject.SetActive(false);
 
-            EnemyManager enemyManager = GameObject.Find("EnemyManager").GetComponent<EnemyManager>();
-            enemyManager.enemyObjectPool.Add(other.gameObject);
+            //EnemyManager enemyManager = GameObject.Find("EnemyManager").GetComponent<EnemyManager>();
+            //enemyManager.enemyObjectPool.Add(other.gameObject);
+            EnemyManager.Instance.enemyObjectPool.Add(other.gameObject);
         }
     }
 }

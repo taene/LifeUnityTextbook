@@ -16,6 +16,16 @@ public class EnemyManager : MonoBehaviour
     public List<GameObject> enemyObjectPool;
     public Transform[] spawnPoints;
 
+    public static EnemyManager Instance;
+
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {

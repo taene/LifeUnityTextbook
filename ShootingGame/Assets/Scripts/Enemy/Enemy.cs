@@ -41,8 +41,16 @@ public class Enemy : MonoBehaviour
         if (randValue < 3)
         {
             GameObject target = GameObject.Find("Player");
-            dir = target.transform.position - transform.position;
-            dir.Normalize();
+
+            if (target != null)
+            {
+                dir = target.transform.position - transform.position;
+                dir.Normalize();
+            }
+            else
+            {
+                dir = Vector3.down;
+            }
         }
         else
         {
@@ -62,8 +70,8 @@ public class Enemy : MonoBehaviour
         //GameObject smObject = GameObject.Find("ScoreManager");
         //ScoreManager scoreManager = smObject.GetComponent<ScoreManager>();
         //scoreManager.SetScore(scoreManager.GetScore() + 1);
-        //-> ScoreManager.smInstance.SetScore(ScoreManager.smInstance.GetScore() + 1);
-        ScoreManager.smInstance.Score++;
+        //-> ScoreManager.Instance.SetScore(ScoreManager.Instance.GetScore() + 1);
+        ScoreManager.Instance.Score++;
 
         // 폭발효과
         GameObject explosion = Instantiate(explosionFactory);
@@ -78,7 +86,8 @@ public class Enemy : MonoBehaviour
             Destroy(collision.gameObject);
         }
         gameObject.SetActive(false);
-        EnemyManager enemyManager = GameObject.Find("EnemyManager").GetComponent<EnemyManager>();
-        enemyManager.enemyObjectPool.Add(gameObject);
+        //EnemyManager enemyManager = GameObject.Find("EnemyManager").GetComponent<EnemyManager>();
+        //enemyManager.enemyObjectPool.Add(gameObject);
+        EnemyManager.Instance.enemyObjectPool.Add(gameObject);
     }
 }

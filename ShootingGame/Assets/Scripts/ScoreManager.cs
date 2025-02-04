@@ -13,14 +13,14 @@ public class ScoreManager : MonoBehaviour
     private int bestScore;
 
     // 싱글턴 객체
-    public static ScoreManager smInstance = null;
+    public static ScoreManager Instance = null;
 
     // 싱글턴 객체에 값이 없으면 생성된 자기 자신을 할당
     void Awake()
     {
-        if (smInstance == null)
+        if (Instance == null)
         {
-            smInstance = this;
+            Instance = this;
         }
     }
 
