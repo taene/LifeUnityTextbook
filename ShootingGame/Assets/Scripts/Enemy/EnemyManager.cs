@@ -12,7 +12,8 @@ public class EnemyManager : MonoBehaviour
     public GameObject enemyFactory;
 
     public int poolSize = 10;
-    GameObject[] enemyObjectPool;
+    //GameObject[] enemyObjectPool;
+    public List<GameObject> enemyObjectPool;
     public Transform[] spawnPoints;
 
     // Start is called before the first frame update
@@ -20,11 +21,15 @@ public class EnemyManager : MonoBehaviour
     {
         createTime = Random.Range(minTime, maxTime);
 
-        enemyObjectPool = new GameObject[poolSize];
+        //enemyObjectPool = new GameObject[poolSize];
+        enemyObjectPool = new List<GameObject>();
         for (int i = 0; i < poolSize; i++)
         {
             GameObject enemy = Instantiate(enemyFactory);
-            enemyObjectPool[i] = enemy;
+            
+            //enemyObjectPool[i] = enemy;
+            enemyObjectPool.Add(enemy);
+
             enemy.SetActive(false);
         }
     }
@@ -36,21 +41,32 @@ public class EnemyManager : MonoBehaviour
 
         if (currentTime > createTime)
         {
-            for (int i = 0; i < poolSize; i++)
+            //for (int i = 0; i < poolSize; i++)
+            //{
+            //    GameObject enemy = enemyObjectPool[i];
+            //    if (enemy.activeSelf == false)
+            //    {
+            //        //enemy.transform.position = transform.position;
+            //        int index = Random.Range(0, spawnPoints.Length);
+            //        enemy.transform.position = spawnPoints[index].position;
+
+            //        enemy.SetActive(true);
+            //        // enemy의 transform position 설정을 먼저 한 후에 SetActive(true)를 해야한다.
+            //        // enemy 게임 오브젝트의 OnEnable() 함수에서 enemy transform을 사용하기 때문이다.
+
+            //        break;
+            //    }
+            //}
+
+            if (enemyObjectPool.Count > 0)
             {
-                GameObject enemy = enemyObjectPool[i];
-                if (enemy.activeSelf == false)
-                {
-                    //enemy.transform.position = transform.position;
-                    int index = Random.Range(0, spawnPoints.Length);
-                    enemy.transform.position = spawnPoints[index].position;
+                GameObject enemy = enemyObjectPool[0];
 
-                    enemy.SetActive(true);
-                    // enemy의 transform position 설정을 먼저 한 후에 SetActive(true)를 해야한다.
-                    // enemy 게임 오브젝트의 OnEnable() 함수에서 enemy transform을 사용하기 때문이다.
+                int index = Random.Range(0, spawnPoints.Length);
+                enemy.transform.position = spawnPoints[index].position;
 
-                    break;
-                }
+                enemy.SetActive(true);
+                enemyObjectPool.RemoveAt(0);
             }
 
             createTime = Random.Range(minTime, maxTime);

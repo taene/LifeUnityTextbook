@@ -40,7 +40,6 @@ public class Enemy : MonoBehaviour
         int randValue = UnityEngine.Random.Range(0, 10);
         if (randValue < 3)
         {
-            Debug.Log(transform.position.normalized);
             GameObject target = GameObject.Find("Player");
             dir = target.transform.position - transform.position;
             dir.Normalize();
@@ -74,10 +73,12 @@ public class Enemy : MonoBehaviour
         {
 
         }
-        else
+        else if (collision.gameObject.name.Contains("Player"))
         {
             Destroy(collision.gameObject);
         }
         gameObject.SetActive(false);
+        EnemyManager enemyManager = GameObject.Find("EnemyManager").GetComponent<EnemyManager>();
+        enemyManager.enemyObjectPool.Add(gameObject);
     }
 }
