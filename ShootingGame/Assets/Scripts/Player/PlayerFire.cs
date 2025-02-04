@@ -6,19 +6,40 @@ public class PlayerFire : MonoBehaviour
 {
     public GameObject bulletFactory;
     public GameObject firePosition;
+
+    public int poolSize = 10;
+    GameObject[] bulletObjectPool;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        // 게임이 시작하기 전에 먼저 탄창이 채워져 있어야 게임을 진행할 수 있으므로, PlayerFire 객체가 태어날 때 탄창에 총알을 만들어 넣는다.
+        bulletObjectPool = new GameObject[poolSize];
+
+        for (int i = 0; i < poolSize; i++)
+        {
+            GameObject bullet = Instantiate(bulletFactory);
+            bulletObjectPool[i] = bullet;
+            bullet.SetActive(false);
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1"))
         {
-            GameObject bullet = Instantiate(bulletFactory);
-            bullet.transform.position = firePosition.transform.position;
+            for (int i = 0; i < poolSize; i++)
+            {
+                GameObject bullet = bulletObjectPool[i];
+                if (bullet.activeSelf == false)
+                {
+                    bullet.transform.position = firePosition.transform.position;
+                    bullet.SetActive(true);
+
+                    break;
+                }
+            }
         }
     }
 }

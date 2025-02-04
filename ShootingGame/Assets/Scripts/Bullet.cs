@@ -18,4 +18,12 @@ public class Bullet : MonoBehaviour
         Vector3 dir = Vector3.up;
         transform.position += dir * speed * Time.deltaTime;
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.name.Contains("Enemy"))
+        {
+            gameObject.SetActive(false);
+        }
+    }
 }

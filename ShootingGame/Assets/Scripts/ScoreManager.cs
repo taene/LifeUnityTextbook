@@ -12,6 +12,18 @@ public class ScoreManager : MonoBehaviour
     public Text bestScoreUI;
     private int bestScore;
 
+    // 싱글턴 객체
+    public static ScoreManager smInstance = null;
+
+    // 싱글턴 객체에 값이 없으면 생성된 자기 자신을 할당
+    void Awake()
+    {
+        if (smInstance == null)
+        {
+            smInstance = this;
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +39,31 @@ public class ScoreManager : MonoBehaviour
         
     }
 
+    // get/set Property
+    public int Score
+    {
+        get
+        {
+            return currentScore;
+        }
+        set
+        {
+            currentScore = value;
+            currentScoreUI.text = "현재점수 : " + currentScore;
+
+            // bestScore UI
+            if (currentScore > bestScore)
+            {
+                bestScore = currentScore;
+                bestScoreUI.text = "최고점수 : " + bestScore;
+
+                // 최고점수 클라이언트에 저장
+                PlayerPrefs.SetInt("Best Score", bestScore);
+            }
+        }
+    }
+
+    /*
     public void SetScore(int value)
     {
         currentScore = value;
@@ -47,4 +84,5 @@ public class ScoreManager : MonoBehaviour
     {
         return currentScore;
     }
+    */
 }

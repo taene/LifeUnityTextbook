@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\UnityProjects\\LifeUnityTextbook\\ShootingGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4C29D328-2221-BEEB-FDBB-E772EA262183}|Assembly-CSharp.csproj|c:\\unityprojects\\lifeunitytextbook\\shootinggame\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C29D328-2221-BEEB-FDBB-E772EA262183}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C29D328-2221-BEEB-FDBB-E772EA262183}|Assembly-CSharp.csproj|C:\\UnityProjects\\LifeUnityTextbook\\ShootingGame\\assets\\scripts\\enemy\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C29D328-2221-BEEB-FDBB-E772EA262183}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C29D328-2221-BEEB-FDBB-E772EA262183}|Assembly-CSharp.csproj|C:\\UnityProjects\\LifeUnityTextbook\\ShootingGame\\assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4C29D328-2221-BEEB-FDBB-E772EA262183}|Assembly-CSharp.csproj|c:\\unityprojects\\lifeunitytextbook\\shootinggame\\assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C29D328-2221-BEEB-FDBB-E772EA262183}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C29D328-2221-BEEB-FDBB-E772EA262183}|Assembly-CSharp.csproj|C:\\UnityProjects\\LifeUnityTextbook\\ShootingGame\\assets\\scripts\\background.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C29D328-2221-BEEB-FDBB-E772EA262183}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\background.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C29D328-2221-BEEB-FDBB-E772EA262183}|Assembly-CSharp.csproj|C:\\UnityProjects\\LifeUnityTextbook\\ShootingGame\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C29D328-2221-BEEB-FDBB-E772EA262183}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C29D328-2221-BEEB-FDBB-E772EA262183}|Assembly-CSharp.csproj|C:\\UnityProjects\\LifeUnityTextbook\\ShootingGame\\assets\\scripts\\player\\playerfire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C29D328-2221-BEEB-FDBB-E772EA262183}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerfire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C29D328-2221-BEEB-FDBB-E772EA262183}|Assembly-CSharp.csproj|C:\\UnityProjects\\LifeUnityTextbook\\ShootingGame\\assets\\scripts\\destroyzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,6 +25,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{4C29D328-2221-BEEB-FDBB-E772EA262183}|Assembly-CSharp.csproj|C:\\UnityProjects\\LifeUnityTextbook\\ShootingGame\\assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C29D328-2221-BEEB-FDBB-E772EA262183}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C29D328-2221-BEEB-FDBB-E772EA262183}|Assembly-CSharp.csproj|C:\\UnityProjects\\LifeUnityTextbook\\ShootingGame\\assets\\scripts\\background.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C29D328-2221-BEEB-FDBB-E772EA262183}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\background.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,19 +47,43 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EnemyManager.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\LifeUnityTextbook\\ShootingGame\\Assets\\Scripts\\Enemy\\EnemyManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyManager.cs",
+              "ToolTip": "C:\\UnityProjects\\LifeUnityTextbook\\ShootingGame\\Assets\\Scripts\\Enemy\\EnemyManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyManager.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwDQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T07:26:21.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerFire.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\LifeUnityTextbook\\ShootingGame\\Assets\\Scripts\\Player\\PlayerFire.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerFire.cs",
+              "ToolTip": "C:\\UnityProjects\\LifeUnityTextbook\\ShootingGame\\Assets\\Scripts\\Player\\PlayerFire.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerFire.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T06:47:44.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ScoreManager.cs",
               "DocumentMoniker": "C:\\UnityProjects\\LifeUnityTextbook\\ShootingGame\\Assets\\Scripts\\ScoreManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreManager.cs",
               "ToolTip": "C:\\UnityProjects\\LifeUnityTextbook\\ShootingGame\\Assets\\Scripts\\ScoreManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\ScoreManager.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwCEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T14:27:13.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T14:27:13.721Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Background.cs",
               "DocumentMoniker": "C:\\UnityProjects\\LifeUnityTextbook\\ShootingGame\\Assets\\Scripts\\Background.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Background.cs",
@@ -63,13 +95,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "DestroyZone.cs",
               "DocumentMoniker": "C:\\UnityProjects\\LifeUnityTextbook\\ShootingGame\\Assets\\Scripts\\DestroyZone.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DestroyZone.cs",
               "ToolTip": "C:\\UnityProjects\\LifeUnityTextbook\\ShootingGame\\Assets\\Scripts\\DestroyZone.cs",
               "RelativeToolTip": "Assets\\Scripts\\DestroyZone.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T13:10:07.365Z"
             },
@@ -81,20 +113,20 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy.cs",
               "ToolTip": "C:\\UnityProjects\\LifeUnityTextbook\\ShootingGame\\Assets\\Scripts\\Enemy\\Enemy.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAA1wC0AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwCoAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T12:17:18.635Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Bullet.cs",
               "DocumentMoniker": "C:\\UnityProjects\\LifeUnityTextbook\\ShootingGame\\Assets\\Scripts\\Bullet.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Bullet.cs",
               "ToolTip": "C:\\UnityProjects\\LifeUnityTextbook\\ShootingGame\\Assets\\Scripts\\Bullet.cs",
               "RelativeToolTip": "Assets\\Scripts\\Bullet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-27T13:03:02.432Z"
             }
