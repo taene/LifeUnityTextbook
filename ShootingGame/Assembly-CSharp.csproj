@@ -60,16 +60,23 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.47f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Import Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
+    <Compile Include="Assets\Import Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
     <Compile Include="Assets\Scripts\Background.cs" />
     <Compile Include="Assets\Import Assets\AwesomeCartoonPlanes\Scripts\Plane.cs" />
+    <Compile Include="Assets\Import Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
     <Compile Include="Assets\Scripts\Bullet.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyManager.cs" />
     <Compile Include="Assets\Scripts\ScoreManager.cs" />
+    <Compile Include="Assets\Import Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
     <Compile Include="Assets\Import Assets\AwesomeCartoonPlanes\Scripts\RotateCamera.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerFire.cs" />
+    <Compile Include="Assets\Import Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
+    <Compile Include="Assets\Import Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMove.cs" />
     <Compile Include="Assets\Scripts\DestroyZone.cs" />
+    <Compile Include="Assets\Import Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Import Assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_SETTINGS.cginc" />

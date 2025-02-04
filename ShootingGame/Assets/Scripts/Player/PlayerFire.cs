@@ -27,13 +27,23 @@ public class PlayerFire : MonoBehaviour
 
             bullet.SetActive(false);
         }
+
+        // 실행되는 플랫폼이 안드로이드일 경우 조이스틱을 활성화시킨다.
+#if UNITY_ANDROID
+        GameObject.Find("Dynamic Joystick").SetActive(true);
+#elif UNITY_EDITOR || UNITY_STANDALONE
+        GameObject.Find("Dynamic Joystick").SetActive(false);
+#endif
     }
 
     // Update is called once per frame
     void Update()
     {
+#if UNITY_EDITOR||UNITY_STANDALONE
         if (Input.GetButtonDown("Fire1"))
         {
+            Fire();
+
             //for (int i = 0; i < poolSize; i++)
             //{
             //    GameObject bullet = bulletObjectPool[i];
@@ -45,15 +55,19 @@ public class PlayerFire : MonoBehaviour
             //        break;
             //    }
             //}
+        }
+#endif
+    }
 
-            if (bulletObjectPool.Count > 0)
-            {
-                GameObject bullet = bulletObjectPool[0];
-                bullet.SetActive(true);
-                bulletObjectPool.RemoveAt(0);   // bulletObjectPool.Remove(bullet);
+    public void Fire()
+    {
+        if (bulletObjectPool.Count > 0)
+        {
+            GameObject bullet = bulletObjectPool[0];
+            bullet.SetActive(true);
+            bulletObjectPool.RemoveAt(0);   // bulletObjectPool.Remove(bullet);
 
-                bullet.transform.position = firePosition.transform.position;
-            }
+            bullet.transform.position = firePosition.transform.position;
         }
     }
 }
